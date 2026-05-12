@@ -1,0 +1,72 @@
+# ============================================================
+# PORTFOLIO CONFIGURATION — Jecinta Wanjiru
+# ============================================================
+
+site_name: Jecinta Wanjiru | Geospatial Portfolio
+site_description: Surveying technologist and GIS specialist based in Nairobi, Kenya
+site_author: Jecinta Wanjiru
+site_url: https://wanjiru-1.github.io/
+
+theme:
+  name: material
+  icon:
+    logo: material/earth
+  palette:
+    - scheme: default
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+  font:
+    text: DM Sans
+    code: Roboto Mono
+
+extra_css:
+  - assets/css/extra.css
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+copyright: "Copyright &copy; Jecinta Wanjiru"
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Wanjiru-1
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/jecinta-wanjiru-
+    - icon: material/email
+      link: mailto:jecinta.w.kinyanjui@gmail.com
+
+plugins:
+  - search
+  - meta
+
+nav:
+  - Home: index.md
+  - Projects:
+    - "All Projects": projects/index.md
+    - "Kenya Youth Opportunity Dashboard": projects/kenya-youth-dashboard.md
+    - "Nairobi Flood Hotspots": projects/nairobi-flood-hotspots.md
+    - "Elgeyo Marakwet Landslide Dashboard": projects/elgeyo-landslide.md
+  - Experience: experience.md
+  - Contact: contact.md
