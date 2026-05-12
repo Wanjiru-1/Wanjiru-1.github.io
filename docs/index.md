@@ -1,122 +1,123 @@
 ---
-hide:
-  - toc
-  - navigation
+title: Jecinta Wanjiru | Geospatial Portfolio
+description: Surveying technologist and GIS specialist based in Nairobi, Kenya
 ---
-<!--
-CHECKLIST FOR THIS PAGE:
-- [ ] Replace [YOUR NAME] with your full name (3 places)
-- [ ] Replace [YOUR JOB TITLE] with your current or target role
-- [ ] Replace [YOUR TAGLINE] with a short phrase describing your focus
-- [ ] Rewrite the About Me paragraph with your own words
-- [ ] Replace assets/images/profile.png with your actual photo (keep the filename or update it below)
-- [ ] Replace assets/images/about.png with your own image (a field photo, map, or workspace shot)
-- [ ] Edit the skill cards to match your actual skills (add, remove, or rename cards as needed)
-- [ ] Update GitHub and LinkedIn links in the Connect section
-- [ ] Add your CV PDF to docs/assets/ and update the filename in the Download CV button
--->
 
+<div class="hero-section" markdown>
 
+<div class="hero-text" markdown>
 
-<div class="hero">
-  <img src="assets/images/profile.png" alt="[YOUR NAME]" class="profile-photo">
-  <h1>[YOUR NAME]</h1>
-  <p><strong>[YOUR JOB TITLE]</strong></p>
-  <p><em>[YOUR TAGLINE — e.g., Turning spatial data into insights | GIS | Remote Sensing | Python]</em></p>
+<span class="hero-badge">📍 Nairobi, Kenya</span>
+
+# Mapping Kenya's **Future** with Data
+
+Geospatial analyst & surveying technologist turning spatial data into insight — from flood hotspots to youth opportunity maps.
+
+<div class="hero-pills" markdown>
+`GIS & Remote Sensing` &nbsp; `GNSS Surveying` &nbsp; `Google Earth Engine` &nbsp; `R & Python`
+</div>
+
+[View Projects](projects/index.md){ .md-button .md-button--primary }
+[Get in Touch](contact.md){ .md-button }
+
+</div>
+
+<div class="hero-photo" markdown>
+
+![Jecinta Wanjiru](assets/images/jecinta_headshot.jpeg){ .profile-photo }
+
+</div>
+
 </div>
 
 ---
 
-## About Me
+## About Me { #about-me }
 
-<div class="about-section" markdown>
+<div class="about-grid" markdown>
+
 <div class="about-text" markdown>
 
-[Replace this paragraph with your own bio. Write 3–4 sentences covering: your background and
-what you specialize in, the kinds of problems you work on, the tools and methods you use,
-and what you are currently looking for. Example below:]
+I'm **Jecinta Wanjiru**, a surveying technologist and GIS specialist based in Nairobi, Kenya. My work sits at the intersection of field measurement and spatial analysis — from GNSS ground surveys across Kenya's arid landscapes to cloud-based dashboards that communicate risk and opportunity to decision-makers.
 
-I am a geospatial data scientist with a background in remote sensing and machine learning.
-I work on extracting actionable insights from satellite imagery and large spatial datasets
-using Python, Google Earth Engine, and open-source GIS tools. I am passionate about applying
-GeoAI techniques to real-world challenges in land use mapping, climate monitoring, and urban
-planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TARGET LOCATION].
+I build tools that help communities understand where they stand: where floods threaten, where landslides loom, where youth are being left behind. My dashboards have covered Nairobi flood hotspots, Elgeyo Marakwet landslide risk, and county-level youth opportunity gaps across all 47 counties.
+
+I care about making geospatial analysis accessible — not just as maps, but as **stories that move people to act**.
 
 </div>
 
-<div class="about-image">
-  <img src="assets/images/about.png" alt="About">
-</div>
+<div class="about-photo" markdown>
+
+![Jecinta conducting a GNSS survey in the field](assets/images/jecinta_survey_photo.jpeg){ .field-photo }
+
+*📍 GNSS survey work in Kenya's semi-arid region*
 
 </div>
 
----
-
-[View My Projects :material-arrow-right:](projects/index.md){ .md-button .md-button--primary }
-[Download CV :material-download:](assets/[YOUR-NAME]-CV.pdf){ .md-button }
-
+</div>
 
 ---
 
 ## Skills
 
-<div class="grid cards" markdown>
+<div class="skills-grid" markdown>
 
--   :material-layers:{ .lg .middle } **GIS & Remote Sensing**
+<div class="skill-card" markdown>
 
-    ---
+:material-map: **GIS & Remote Sensing**
 
-    - QGIS, ArcGIS Pro, Google Earth Engine
-    - GDAL / OGR, GRASS GIS
-    - Multispectral and SAR image analysis
-    - Cloud Native Geospatial (COG, STAC, Zarr)
+- ArcGIS Pro, QGIS
+- Google Earth Engine
+- Leaflet.js, Folium
+- Satellite imagery analysis
+- Choropleth & thematic mapping
 
--   :material-code-braces:{ .lg .middle } **Programming**
-
-    ---
-
-    - Python — GeoPandas, NumPy, Pandas, Matplotlib
-    - R — sf, terra, ggplot2
-    - JavaScript — Leaflet, MapLibre GL
-    - SQL, PostgreSQL + PostGIS
-
--   :material-star-four-points:{ .lg .middle } **Machine Learning & GeoAI**
-
-    ---
-
-    - Supervised classification — Random Forest, XGBoost
-    - Deep learning for image segmentation — U-Net, SAM
-    - scikit-learn, PyTorch, TensorFlow
-    - Object detection in satellite imagery
-
--   :material-earth:{ .lg .middle } **Web Mapping & Data**
-
-    ---
-
-    - Leaflet.js, Folium, MapLibre GL JS
-    - Cloud storage — AWS S3, Google Cloud Storage
-    - Data formats — GeoTIFF, GeoParquet, NetCDF
-    - Streamlit for data-driven web apps
-
--   :material-database:{ .lg .middle } **Data & Cloud**
-
-    ---
-
-    - PostgreSQL + PostGIS
-    - Cloud storage: AWS S3, Google Cloud Storage
-    - Data formats: GeoJSON, GeoTIFF, NetCDF, Zarr, GeoParquet
-
--   :material-airplane:{ .lg .middle } **Drone / UAV Data Processing**
-
-    - Mission planning and flight operations
-    - Photogrammetry: Agisoft Metashape, OpenDroneMap
-    - Point cloud processing: CloudCompare, PDAL
 </div>
 
+<div class="skill-card" markdown>
+
+:material-code-braces: **Data & Programming**
+
+- R / RStudio — leaflet, sf, ggplot2
+- Python — GeoPandas, NumPy
+- JavaScript — Leaflet.js
+- SQL & spatial databases
+- MkDocs, GitHub Pages
+
+</div>
+
+<div class="skill-card" markdown>
+
+:material-crosshairs-gps: **Field & Surveying**
+
+- GNSS / RTK positioning
+- Total station surveys
+- UAV / drone data collection
+- Ground-truth verification
+- Cadastral & boundary survey
+
+</div>
+
+<div class="skill-card" markdown>
+
+:material-chart-bar: **Analysis & Dashboards**
+
+- Disaster risk mapping
+- Predictive risk modelling
+- Interactive web dashboards
+- Open data & policy analysis
+- Google Earth Engine Apps
+
+</div>
+
+</div>
 
 ---
 
 ## Connect
 
-[GitHub](https://github.com/[YOUR-GITHUB-USERNAME]){ .md-button }
-[LinkedIn](https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]){ .md-button }
+| | |
+|---|---|
+| :material-email: **Email** | [jecinta.w.kinyanjui@gmail.com](mailto:jecinta.w.kinyanjui@gmail.com) |
+| :fontawesome-brands-github: **GitHub** | [github.com/Wanjiru-1](https://github.com/Wanjiru-1) |
+| :fontawesome-brands-linkedin: **LinkedIn** | [linkedin.com/in/jecinta-wanjiru-](https://linkedin.com/in/jecinta-wanjiru-) |
