@@ -1,47 +1,74 @@
 ---
-hide:
-  - toc
-  - navigation
+title: Projects
+description: Geospatial projects by Jecinta Wanjiru
 ---
-<!--
-CHECKLIST FOR THIS PAGE:
-- [ ] Replace the two placeholder cards (marked [YOUR PROJECT ...]) with your real projects
-- [ ] For each project: add a thumbnail image to docs/assets/images/ and update the path below
-- [ ] For each project: create a project page by copying sample-project.md
-- [ ] For each project: add a nav entry in mkdocs.yml (see the comments there)
-- [ ] Delete placeholder cards you don't need yet
--->
 
-# Projects
+# Projects { #projects }
 
-A selection of my geospatial projects. Click any card to see the full write-up.
+A selection of my geospatial projects — interactive dashboards, disaster risk maps, and spatial analysis tools built for Kenya's communities and policymakers. Click any card to see the full write-up.
 
-<div class="grid" markdown>
+---
 
-<div class="project-card" markdown>
-![](../assets/images/placeholder-project.png)
+<div class="project-card featured" markdown>
 
-**[Sample Project](sample-project.md)**
-
-[YOUR PROJECT DESCRIPTION — one or two sentences: what you did, what data you used,
-and what you found or built.]
-
-`[TOOL 1]` `[TOOL 2]` `[TOOL 3]`
-
-[View Project →](sample-project.md){ .md-button }
+<div class="project-card-img" markdown>
+![Kenya Youth Opportunity Dashboard](../assets/images/kenya_youth_dashboard.png)
 </div>
 
+<div class="project-card-body" markdown>
+
+**[Kenya Youth Opportunity Dashboard](kenya-youth-dashboard.md)**
+
+`Leaflet.js` `GIS` `Data Visualisation` `Policy`
+
+An interactive choropleth map covering all 47 Kenyan counties, surfacing youth unemployment rates, education access, and internet connectivity side-by-side. Lets policymakers click any county to explore indicators and compare high-priority investment targets against model cases with low unemployment.
+
+[View Project →](kenya-youth-dashboard.md)
+
+</div>
+
+</div>
+
+---
+
 <div class="project-card" markdown>
-![](../assets/images/placeholder-notebook.png)
 
-**[Sample Notebook](sample-notebook.ipynb)**
+<div class="project-card-img" markdown>
+![Nairobi Flood Hotspots](../assets/images/nairobi_flood.jpeg)
+</div>
 
-[YOUR PROJECT DESCRIPTION — one or two sentences: what you did, what data you used,
-and what you found or built.]
+<div class="project-card-body" markdown>
 
-`Python` `pandas` `Folium`
+**[Nairobi Flood Hotspots Awareness Map](nairobi-flood-hotspots.md)**
 
-[View Project →](sample-notebook.ipynb){ .md-button }
+`R` `Leaflet` `Disaster Risk` `Public Safety`
+
+An awareness map of Nairobi's flood-prone sub-counties based on 2024 & 2026 flooding events. Shows flood severity gradients, emergency resource locations, and safety reminders for the public — published on RPubs for open access.
+
+[View Project →](nairobi-flood-hotspots.md)
+
+</div>
+
+</div>
+
+---
+
+<div class="project-card" markdown>
+
+<div class="project-card-img" markdown>
+![Elgeyo Marakwet Landslide Dashboard](../assets/images/elgeyo_landslide.jpeg)
+</div>
+
+<div class="project-card-body" markdown>
+
+**[Elgeyo Marakwet Landslide Dashboard](elgeyo-landslide.md)**
+
+`Google Earth Engine` `Hazard Mapping` `Predictive Modelling`
+
+A Google Earth Engine application combining past damage mapping from the devastating November 2025 landslides (26+ deaths, 1,000+ homes destroyed) with future risk classification across four classes — Low, Moderate, High, and Extreme — at ward level.
+
+[View Project →](elgeyo-landslide.md)
+
 </div>
 
 </div>
