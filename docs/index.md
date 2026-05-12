@@ -8,7 +8,7 @@ I apply geospatial technology, machine learning, and data analytics to solve rea
 [Download CV](assets/Jecinta_Wanjiru_CV.pdf){ .md-button }
 [Get in touch](mailto:jecinta.w.kinyanjui@gmail.com){ .md-button }
 
-![Professional headshot of Jecinta Wanjiru Kinyanjui](assets/images/profile.png){ .profile-image }
+![Professional headshot of Jecinta Wanjiru Kinyanjui](assets/images/jecinta_headshot.jpeg){ .profile-image }
 
 **Open to opportunities**
 
@@ -37,7 +37,7 @@ Awarded globally by the International Federation of Surveyors to outstanding eme
 
 I combine a strong academic foundation in Surveying Technology with hands-on experience in remote sensing, GIS automation, and AI-augmented workflows. I am certified in Data Science, Python, Data Analytics, and AI Career Essentials, with proven ability to manage large-scale geodatabases, automate data pipelines, and deliver actionable spatial insights to cross-functional teams.
 
-![About photo](assets/images/about.png){ .about-image }
+![About photo](assets/images/jecinta_survey_photo.jpeg){ .about-image }
 
 #### 🌍 Africa-first impact focus
 
@@ -63,7 +63,7 @@ I have embedded with senior engineers and GIS experts at KETRACO and DRSRS, deli
 
 #### Kenya Climate Risk Dashboard 2025
 
-![Kenya Climate Risk Dashboard](assets/images/landslide-dashboard.png)
+![Kenya Climate Risk Dashboard](assets/images/elgeyo_landslide.jpeg)
 
 Web maps analysing drought and flood-prone zones across Kenyan counties using satellite-derived rainfall and land cover data. Built to support early warning systems and resource allocation decisions.
 
