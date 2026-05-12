@@ -1,66 +1,58 @@
 ---
-hide:
-  - toc
-  - navigation
+title: Experience & Education
+description: Jecinta Wanjiru's professional experience and educational background
 ---
-<!--
-CHECKLIST FOR THIS PAGE:
-- [ ] Replace each [YOUR ...] placeholder with your actual information
-- [ ] Add or remove job entries as needed (copy the format of an existing entry)
-- [ ] Add or remove education entries
-- [ ] Add or remove certifications
--->
 
-# Experience & Education
+# Experience & Education { #experience-education }
 
 ## Work Experience
 
-<div class="timeline" markdown>
+### GIS Analyst & Geospatial Developer — Independent
 
-<div class="timeline-entry" markdown>
+*2024 – Present | Nairobi, Kenya*
 
-### [YOUR JOB TITLE] — [YOUR COMPANY / ORGANIZATION]
-*[Month Year] – [Month Year or Present] | [City, Country]*
+- Build interactive geospatial dashboards for disaster risk, social development, and environmental monitoring
+- Develop Leaflet.js and Google Earth Engine applications for Kenyan county governments and public use
+- Conduct spatial data analysis across R and Python for policy-relevant insights on youth, flood risk, and landslide hazard
+- Maintain open-access maps and dashboards published on GitHub Pages and RPubs
 
-- [Describe your main responsibility or achievement in one sentence]
-- [Describe another key task, project, or result]
-- [Describe a tool, method, or skill you applied regularly]
+---
 
-</div>
+### Field Survey Technician — Survey & Mapping Operations
 
-<div class="timeline-entry" markdown>
+*2022 – 2024 | Kenya*
 
-### [YOUR PREVIOUS JOB TITLE] — [YOUR PREVIOUS COMPANY]
-*[Month Year] – [Month Year] | [City, Country]*
-
-- [Describe your main responsibility or achievement in one sentence]
-- [Describe another key task, project, or result]
-- [Describe a tool, method, or skill you applied regularly]
-
-</div>
-
-</div>
+- Conducted GNSS / RTK surveys across Kenya's semi-arid and arid regions for infrastructure and land boundary mapping
+- Operated total stations and managed field data collection workflows for road and boundary surveying projects
+- Processed field-collected spatial data and produced deliverable maps and reports for clients
+- Worked across multiple counties including areas with challenging terrain and limited connectivity
 
 ---
 
 ## Education
 
-### [YOUR DEGREE] in [YOUR FIELD]
-**[YOUR UNIVERSITY]** | *[Year of Graduation]*
+### B.Sc. Surveying Technology
 
-[Optional: one sentence about your thesis, specialization, or coursework if relevant]
+**Kenya** | *Graduated 2022*
 
----
-
-### [YOUR PREVIOUS DEGREE] in [YOUR FIELD]
-**[YOUR UNIVERSITY]** | *[Year of Graduation]*
+Studied geodesy, photogrammetry, cartography, GIS, and cadastral surveying. Capstone work focused on spatial data analysis and land information systems for urban planning contexts.
 
 ---
 
 ## Certifications
 
-- [Certification Name] — [Issuing Organization], [Year]
-- [Certification Name] — [Issuing Organization], [Year]
-- [Certification Name] — [Issuing Organization], [Year]
+- Google Earth Engine — Geospatial analysis with GEE
+- QGIS — Open-source GIS workflows
+- R for Geospatial Analysis — Spatial data science with R
 
-*Examples: QGIS Certification, PMP Certification, AWS Certified Cloud Practitioner*
+---
+
+## Tools I Work With
+
+| Category | Tools |
+|----------|-------|
+| GIS Platforms | ArcGIS Pro, QGIS, Google Earth Engine |
+| Web Mapping | Leaflet.js, Folium, MapLibre GL |
+| Programming | R, Python, JavaScript |
+| Field Surveying | GNSS / RTK, Total Station, UAV |
+| Publishing | GitHub Pages, RPubs, MkDocs |
