@@ -7,9 +7,10 @@
 # Edit all lines marked [YOUR ...] to customize your site
 # ============================================================
 
-site_name: "[YOUR NAME] - Geospatial Portfolio"
-site_description: "Portfolio of [YOUR NAME] — GIS, Remote Sensing, and Spatial Data Science"
-site_author: "[YOUR NAME]"
+site_name: Jecinta Wanjiru | Geospatial Portfolio
+site_description: Surveying technologist and GIS specialist based in Nairobi, Kenya
+site_author: Jecinta Wanjiru
+site_url: https://wanjiru-1.github.io/
 # After your site is live, uncomment and set this to your actual GitHub Pages URL:
 #site_url: "https://your-username.github.io/your-repo-name"
 
@@ -64,11 +65,11 @@ copyright: "Copyright &copy; [YOUR NAME]"
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/[YOUR-GITHUB-USERNAME]
+      link: https://github.com/Wanjiru-1
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]
+      link: https://linkedin.com/in/jecinta-wanjiru-
     - icon: material/email
-      link: mailto:[YOUR-EMAIL-ADDRESS]
+      link: mailto:jecinta.w.kinyanjui@gmail.com
 
 
 plugins:
