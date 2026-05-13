@@ -1,74 +1,44 @@
----
-title: Projects
-description: Geospatial projects by Jecinta Wanjiru
----
+# Projects
 
-# Projects { #projects }
+Real-world geospatial work addressing climate risk, food security, and disaster preparedness across Kenya. Each project leads with the problem it addresses, the population it serves, and the outcomes it enables.
 
-A selection of my geospatial projects — interactive dashboards, disaster risk maps, and spatial analysis tools built for Kenya's communities and policymakers. Click any card to see the full write-up.
+<div class="grid cards" markdown>
 
----
+-   ![Elgeyo Marakwet Landslide Dashboard](../assets/images/elgeyo_landslide.jpeg)
 
-<div class="project-card featured" markdown>
+    **Elgeyo Marakwet Landslide Dashboard**
 
-<div class="project-card-img" markdown>
-![Kenya Youth Opportunity Dashboard](../assets/images/kenya_youth_dashboard.png)
-</div>
+    Interactive risk classification across an entire county, built to give disaster officers a heads-up before the next landslide event.
 
-<div class="project-card-body" markdown>
+    *Stack: Google Earth Engine, JavaScript, Sentinel-2, SRTM*
 
-**[Kenya Youth Opportunity Dashboard](kenya-youth-dashboard.md)**
+    [Read more →](landslide-dashboard.md)
 
-`Leaflet.js` `GIS` `Data Visualisation` `Policy`
+-   ![Nairobi Flood Hotspots](../assets/images/nairobi_flood.jpeg)
 
-An interactive choropleth map covering all 47 Kenyan counties, surfacing youth unemployment rates, education access, and internet connectivity side-by-side. Lets policymakers click any county to explore indicators and compare high-priority investment targets against model cases with low unemployment.
+    **Nairobi Flood Hotspots**
 
-[View Project →](kenya-youth-dashboard.md)
+    Citywide mapping of flood-prone zones, identifying priority areas for drainage, evacuation planning, and infrastructure investment in informal settlements.
 
-</div>
+    *Stack: Python, QGIS, Sentinel-1, Google Earth Engine*
 
-</div>
+    [Read more →](flood-hotspots.md)
 
----
+-   ![Kenya Climate Risk Dashboard](../assets/images/kenya_youth_dashboard.png)
 
-<div class="project-card" markdown>
+    **Kenya Climate Risk Dashboard 2025**
 
-<div class="project-card-img" markdown>
-![Nairobi Flood Hotspots](../assets/images/nairobi_flood.jpeg)
-</div>
+    National-scale web maps showing drought and flood-prone zones across all 47 counties, supporting early warning systems and food security planning.
 
-<div class="project-card-body" markdown>
+    *Stack: Google Earth Engine, Python, Leaflet*
 
-**[Nairobi Flood Hotspots Awareness Map](nairobi-flood-hotspots.md)**
-
-`R` `Leaflet` `Disaster Risk` `Public Safety`
-
-An awareness map of Nairobi's flood-prone sub-counties based on 2024 & 2026 flooding events. Shows flood severity gradients, emergency resource locations, and safety reminders for the public — published on RPubs for open access.
-
-[View Project →](nairobi-flood-hotspots.md)
+    [Read more →](climate-risk-dashboard.md)
 
 </div>
 
-</div>
+## Additional work
 
----
+Two further projects from my work at DRSRS:
 
-<div class="project-card" markdown>
-
-<div class="project-card-img" markdown>
-![Elgeyo Marakwet Landslide Dashboard](../assets/images/elgeyo_landslide.jpeg)
-</div>
-
-<div class="project-card-body" markdown>
-
-**[Elgeyo Marakwet Landslide Dashboard](elgeyo-landslide.md)**
-
-`Google Earth Engine` `Hazard Mapping` `Predictive Modelling`
-
-A Google Earth Engine application combining past damage mapping from the devastating November 2025 landslides (26+ deaths, 1,000+ homes destroyed) with future risk classification across four classes — Low, Moderate, High, and Extreme — at ward level.
-
-[View Project →](elgeyo-landslide.md)
-
-</div>
-
-</div>
+* **Coffee Farm Geodatabase**: end-to-end digitisation and validation of 300+ smallholder coffee farm parcels, improving data accuracy for farmer land management records.
+* **Cartographic Automation Pipeline**: Python and Google Earth Engine scripts to automate repetitive map production tasks, cutting production time across the team's workflow.
