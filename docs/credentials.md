@@ -19,7 +19,7 @@ Studied geodesy, photogrammetry, cartography, GIS, and cadastral surveying. Caps
 <div class="cert-card" markdown>
 **TUK — B.Tech Surveying Technology**
 
-![TUK Degree](assets/certificates/cert_tuk_degree.jpg)
+![TUK Degree](https://github.com/Wanjiru-1/Wanjiru-1.github.io/blob/94c9f7191008b306dce92ec959886af0bf378e83/docs/assets/%20certificates/cert_tuk_degree.jpg)
 </div>
 
 </div>
