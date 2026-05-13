@@ -27,7 +27,7 @@ Awarded globally by the International Federation of Surveyors to outstanding eme
 | Land parcel records managed at KETRACO | 1,000+ |
 | Improvement in data retrieval accuracy | 25% |
 | Coffee farm parcels digitised at DRSRS | 300+ |
-| Professional certifications | 6 |
+| Professional certifications | 13 |
 
 ---
 
@@ -129,39 +129,139 @@ Climate resilience (drought and flood prediction) · Femicide hotspot mapping ·
 
 ## Certifications and Credentials
 
+A combination of academic qualifications, professional certifications, and recognition for service and leadership in the geospatial community.
+
 ### Academic Qualifications
 
-**Bachelor of Technology in Surveying Technology**  
-Technical University of Kenya | 2021 to 2025  
-2nd Class Honours, Upper Division
+<div class="grid cards" markdown>
+
+-   ![TUK Degree Certificate](assets/certificates/cert_tuk_degree.jpg)
+
+    **Bachelor of Technology in Surveying Technology**  
+    Technical University of Kenya | 2021 to 2025  
+    *2nd Class Honours, Upper Division*
+
+</div>
+
+### Recognition and Awards
+
+<div class="grid cards" markdown>
+
+-   ![FIG Foundation Young Surveyor Grant 2025](assets/certificates/cert_fig_grant.png)
+
+    **2025 FIG Foundation Young Surveyor Grant**  
+    International Federation of Surveyors  
+    *Awarded globally to outstanding emerging professionals, recognised at 4YSAM, Mombasa*
+
+</div>
 
 ### Professional Certifications
 
-**ALX Data Science**  
-*Completed 27 February 2026*  
-Foundations of data science, statistical analysis, and applied machine learning for real-world datasets. [Verify certificate](https://savanna.alxafrica.com/certificates/Lh7Ze2fcxT)
+#### ALX Africa
 
-**ALX Python Programming**  
-Syntax, object-oriented programming (OOP), error handling, and scripting for automation.
+<div class="grid cards" markdown>
 
-**ALX Data Analytics**  
-SQL for database querying, Power BI for data visualisation, advanced spreadsheet techniques and data analysis workflows.
+-   ![ALX Data Science](assets/certificates/cert_alx_data_science.png)
 
-**ALX AI Career Essentials**  
-Generative AI tools for content creation, data analysis, workflow automation, and prompt engineering.
+    **Data Science**  
+    *Completed 27 February 2026*  
+    Statistical analysis, applied machine learning, and data-driven decision-making. [Verify](https://savanna.alxafrica.com/certificates/Lh7Ze2fcxT)
 
-**ALX Virtual Assistant**  
-Calendar management, inbox organisation, data entry, social media management, and AI productivity tools.
+-   ![ALX Machine Learning](assets/certificates/cert_alx_machine_learning.png)
 
-**ESRI MOOC: Making an Impact with Modern Geo Apps**  
-Applied use of modern geospatial web applications (ArcGIS Online, Experience Builder, Dashboards) to deliver spatial insights and support decision-making.
+    **Machine Learning**  
+    Supervised and unsupervised learning, model evaluation, and deployment workflows.
 
-### Recognition
+-   ![ALX Data Analytics](assets/certificates/cert_alx_data_analytics.png)
 
-**2025 FIG Foundation Young Surveyor Grant**  
-International Federation of Surveyors  
-Awarded globally to outstanding emerging professionals.
+    **Data Analytics**  
+    SQL, Power BI, advanced spreadsheets, and end-to-end data analysis workflows.
 
+-   ![ALX Python Programming](assets/certificates/cert_alx_python.png)
+
+    **Python Programming**  
+    OOP, error handling, and automation scripting.
+
+-   ![ALX AI Career Essentials](assets/certificates/cert_alx_ai_essentials.png)
+
+    **AI Career Essentials**  
+    Generative AI tools, prompt engineering, and AI-augmented workflows.
+
+-   ![ALX Virtual Assistant](assets/certificates/cert_alx_virtual_assistant.png)
+
+    **Virtual Assistant**  
+    Productivity tools, calendar and inbox management, and AI-supported task automation.
+
+-   ![ALX Professional Foundations](assets/certificates/cert_alx_prof_foundations.png)
+
+    **Professional Foundations**  
+    Workplace communication, problem-solving, and professional development for the digital economy.
+
+</div>
+
+#### ESRI
+
+<div class="grid cards" markdown>
+
+-   ![ESRI Going Places with Spatial Analysis](assets/certificates/cert_esri_spatial_analysis.jpg)
+
+    **Going Places with Spatial Analysis**  
+    Core spatial analysis techniques using ArcGIS for solving location-based problems.
+
+-   ![ESRI Making an Impact with Modern Geo Apps](assets/certificates/cert_esri_geo_apps.png)
+
+    **Making an Impact with Modern Geo Apps**  
+    Building decision-support tools using ArcGIS Online, Experience Builder, and Dashboards.
+
+</div>
+
+#### RCMRD (Regional Centre for Mapping of Resources for Development)
+
+<div class="grid cards" markdown>
+
+-   ![RCMRD GIS Advanced](assets/certificates/cert_rcmrd_gis_advanced.png)
+
+    **GIS Advanced**  
+    Advanced spatial analysis and geoprocessing workflows.
+
+-   ![RCMRD GIS Expert](assets/certificates/cert_rcmrd_gis_expert.png)
+
+    **GIS Expert**  
+    Expert-level geoinformatics, including scripting and custom toolbox development.
+
+-   ![RCMRD Conservation Mapping Module 2](assets/certificates/cert_rcmrd_conservation_m2.jpg)
+
+    **Applications of GIS in Conservation Mapping, Module 2**
+
+-   ![RCMRD Conservation Mapping Module 3](assets/certificates/cert_rcmrd_conservation_m3.jpg)
+
+    **Applications of GIS in Conservation Mapping, Module 3**
+
+-   ![RCMRD Conservation Mapping Module 4](assets/certificates/cert_rcmrd_conservation_m4.jpg)
+
+    **Applications of GIS in Conservation Mapping, Module 4**
+
+</div>
+
+### Volunteer and Leadership
+
+<div class="grid cards" markdown>
+
+-   ![FIG Mentorship](assets/certificates/cert_fig_mentorship.jpeg)
+
+    **FIG Mentorship Programme**  
+    International Federation of Surveyors  
+    *Mentorship engagement with the FIG Young Surveyors Network*
+
+-   ![AWISC Volunteer](assets/certificates/cert_awisc_volunteer.png)
+
+    **AWISC Volunteer**  
+    Africa Women in Surveying Conference  
+    *Volunteer service in support of women in the surveying profession*
+
+</div>
+
+---
 ---
 
 [Download my full CV](assets/Jecinta_Wanjiru_CV.pdf){ .md-button .md-button--primary }
