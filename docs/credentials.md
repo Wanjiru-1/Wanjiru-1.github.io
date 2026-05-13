@@ -91,7 +91,7 @@ Studied geodesy, photogrammetry, cartography, GIS, and cadastral surveying. Caps
 <div class="cert-card" markdown>
 **AI Essentials**
 
-![ALX AI Essentials](assets/certificates/cert_alx_ai_essentials.png)
+![ALX AI Essentials](docs/assets/ certificates/cert_alx_ai_essentials.png)
 </div>
 
 <div class="cert-card" markdown>
