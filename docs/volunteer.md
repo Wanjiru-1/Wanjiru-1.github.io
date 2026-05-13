@@ -11,7 +11,7 @@ description: Volunteer work and community involvement by Jecinta Wanjiru
 
 Selected and participated in the **FIG Young Surveyors Network Volunteer Community Surveyor Program** — a virtual volunteering initiative focused on mapping to empower communities and protect vulnerable people across Africa.
 
-Participated in a 48-hour intensive mapping session from **22nd to 23rd November 2024**, contributing to mapping efforts in Tanzania as part of the *"Empowering and Protecting Girls in Rural Communities"* campaign — using mapping to help end Female Genital Mutilation (FGM) by making remote communities visible on the map.
+Participated in a 48-hour intensive mapping session from **22nd to 23rd November 2024**, contributing to mapping efforts in Tanzania as part of the *"Empowering and Protecting Girls in Rural Communities"* campaign  using mapping to help end Female Genital Mutilation (FGM) by making remote communities visible on the map.
 
 > *"I recently applied for a mapping volunteering program by FIG Young Surveyors Network (YSN) and got selected and participated in mapping for Tanzania to help end FGM from the 22nd to 23rd of November 2024. I am glad to have participated in the program and got to learn alongside the 48hrs and more. I also got to learn of the work that Crowd2Map Tanzania are doing in Tanzania through mapping."*
 
@@ -52,4 +52,4 @@ Active member and volunteer with AWISC, an organisation dedicated to empowering 
 
 ## Why I Volunteer
 
-Maps save lives. Whether it is routing emergency responders to flood victims in Nairobi, or helping health workers find girls at risk of FGM in rural Tanzania — putting communities on the map is one of the most direct ways geospatial skills can create real human impact. Volunteering with FIG YSN and AWISC keeps me connected to that purpose.
+Maps save lives. Whether it is routing emergency responders to flood victims in Nairobi, or helping health workers find girls at risk of FGM in rural Tanzania putting communities on the map is one of the most direct ways geospatial skills can create real human impact. Volunteering with FIG YSN and AWISC keeps me connected to that purpose.
