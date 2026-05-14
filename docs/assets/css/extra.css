@@ -419,46 +419,54 @@ hr {
   color: #ffffff !important;
   text-decoration: underline;
 }
-/* Skills page card sizing fix */
+/* Force 2 columns on desktop, 1 on mobile, for all grid cards */
 .md-typeset .grid.cards {
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
-  gap: 1rem !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 1.25rem !important;
 }
 
 .md-typeset .grid.cards > ul > li,
 .md-typeset .grid.cards > * {
-  padding: 1.25rem 1.5rem !important;
+  padding: 1.5rem 1.75rem !important;
   min-height: auto !important;
 }
 
-/* Make card lists readable */
 .md-typeset .grid.cards ul {
   padding-left: 1.25rem !important;
   margin: 0.5rem 0 0 0 !important;
 }
 
 .md-typeset .grid.cards li {
-  margin-bottom: 0.3rem !important;
-  line-height: 1.5 !important;
+  margin-bottom: 0.4rem !important;
+  line-height: 1.55 !important;
 }
 
-/* Make card headings cleaner */
 .md-typeset .grid.cards p strong,
 .md-typeset .grid.cards h3 {
-  font-size: 1.05rem !important;
+  font-size: 1.1rem !important;
   margin-bottom: 0.5rem !important;
 }
 
-/* Force 2 columns max on wider screens to prevent cramped cards */
-@media (min-width: 1220px) {
+/* Mobile: stack to 1 column */
+@media (max-width: 768px) {
   .md-typeset .grid.cards {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* For credentials page: allow 3 columns on wide screens since cards are smaller */
+.md-typeset .credentials-grid .grid.cards {
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+
+@media (max-width: 1100px) {
+  .md-typeset .credentials-grid .grid.cards {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }
 
-/* On smaller screens, stack to 1 column */
 @media (max-width: 768px) {
-  .md-typeset .grid.cards {
+  .md-typeset .credentials-grid .grid.cards {
     grid-template-columns: 1fr !important;
   }
 }
