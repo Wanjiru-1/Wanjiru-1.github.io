@@ -407,3 +407,15 @@ hr {
   margin: 1rem 0;
   text-align: center;
 }
+/* Make contact section text clearly visible on green background */
+.md-typeset .contact-section,
+[data-md-color-scheme] footer,
+.md-footer {
+  color: #ffffff !important;
+}
+
+.md-typeset a[href^="mailto"],
+.md-typeset a[href^="tel"] {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
