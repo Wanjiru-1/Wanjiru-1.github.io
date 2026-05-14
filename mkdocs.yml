@@ -64,12 +64,12 @@ plugins:
 nav:
   - Home: index.md
   - Projects:
-    - "All Projects": projects/index.md
-    - "Kenya Youth Opportunity Dashboard": projects/kenya-youth-dashboard.md
-    - "Nairobi Flood Hotspots": projects/nairobi-flood-hotspots.md
-    - "Elgeyo Marakwet Landslide Dashboard": projects/elgeyo-landslide.md
-  - Skills: skills.md
+    - Overview: projects/index.md
+    - Elgeyo Marakwet Landslide Dashboard: projects/elgeyo-landslide.md
+    - Nairobi Flood Hotspots: projects/nairobi-flood-hotspots.md
+    - Kenya Climate Risk Dashboard: projects/kenya-youth-dashboard.md
   - Experience: experience.md
-  - Credentials: credentials.md
+  - Skills: skills.md
   - Volunteer: volunteer.md
-  - Contact: contact.md
+  - Publications: publications.md
+  - Credentials: credentials.md
