@@ -8,9 +8,16 @@ I apply geospatial technology, machine learning, and data analytics to solve rea
 
 <div class="contact-card" markdown>
 
-**Get in touch**  
-[✉ jecinta.w.kinyanjui@gmail.com](mailto:jecinta.w.kinyanjui@gmail.com) | [📞 +254 793 656 395](tel:+254793656395) | [LinkedIn](https://www.linkedin.com/in/jecinta-wanjiru-) | [GitHub](https://github.com/Wanjiru-1)
+## Get in touch
 
+I am open to opportunities in climate analytics, geospatial data science, and social impact research.
+
+<div style="background-color: #1e3a5f; padding: 1.2rem 2rem; border-radius: 10px; text-align: center;">
+  <a href="mailto:jecinta.w.kinyanjui@gmail.com" style="color: #ffffff; margin-right: 8px;">✉ jecinta.w.kinyanjui@gmail.com</a> |
+  <a href="tel:+254793656395" style="color: #ffffff; margin: 0 8px;">📞 +254 793 656 395</a> |
+  <a href="https://www.linkedin.com/in/jecinta-wanjiru-" style="color: #ffffff; margin: 0 8px;">LinkedIn</a> |
+  <a href="https://github.com/Wanjiru-1" style="color: #ffffff; margin-left: 8px;">GitHub</a>
+</div>
 </div>
 
 [See my work](projects/){ .md-button .md-button--primary }
