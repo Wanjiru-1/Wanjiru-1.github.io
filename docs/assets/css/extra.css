@@ -379,3 +379,31 @@ hr {
 @media (max-width: 520px) {
   .skills-grid { grid-template-columns: 1fr; }
 }
+
+/* Passport-style headshot on home page */
+.profile-image {
+  width: 180px !important;
+  height: 220px !important;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin: 1rem auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* About section field photo */
+.about-image {
+  max-width: 400px;
+  border-radius: 8px;
+  margin: 1.5rem auto;
+  display: block;
+}
+
+/* Contact card styling */
+.contact-card {
+  background: var(--md-primary-fg-color--light, #e8f4f8);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  text-align: center;
+}
