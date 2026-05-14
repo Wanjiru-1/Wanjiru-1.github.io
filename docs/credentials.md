@@ -1,167 +1,161 @@
----
-title: Credentials
-description: Degrees, professional certifications and qualifications of Jecinta Wanjiru
----
+# Certifications and Credentials
 
-# Credentials
+A combination of academic qualifications, professional certifications, and recognition for service and leadership in the geospatial community.
 
-## Academic Degree
+## Academic Qualifications
 
-### B.Tech — Surveying Technology
-**Technical University of Kenya (TUK)** | *2021 – 2025 | Nairobi*
+<div class="grid cards" markdown>
 
-*2nd Class Honours, Upper Division*
+-   ![TUK Degree Certificate](../assets/%20certificates/cert_tuk_degree.jpg)
 
-Studied geodesy, photogrammetry, cartography, GIS, and cadastral surveying. Capstone focused on spatial data analysis and land information systems for urban planning and environmental management.
+    **Bachelor of Technology in Surveying Technology**
 
-<div class="cert-grid" markdown>
+    Technical University of Kenya | 2021 to 2025
 
-<div class="cert-card" markdown>
-**TUK — B.Tech Surveying Technology**
-
-![TUK Degree](https://github.com/Wanjiru-1/Wanjiru-1.github.io/blob/94c9f7191008b306dce92ec959886af0bf378e83/docs/assets/%20certificates/cert_tuk_degree.jpg)
-</div>
+    *2nd Class Honours, Upper Division*
 
 </div>
 
----
+## Recognition and Awards
 
-## RCMRD — Regional Centre for Mapping of Resources for Development
+<div class="grid cards" markdown>
 
-<div class="cert-grid" markdown>
+-   ![FIG Foundation Young Surveyor Grant 2025](../assets/%20certificates/cert_fig_grant.png)
 
-<div class="cert-card" markdown>
-**GIS Expert**
+    **2025 FIG Foundation Young Surveyor Grant**
 
-![RCMRD GIS Expert](assets/certificates/cert_rcmrd_gis_expert.png)
-</div>
+    International Federation of Surveyors
 
-<div class="cert-card" markdown>
-**GIS Advanced**
-
-![RCMRD GIS Advanced](assets/certificates/cert_rcmrd_gis_advanced.png)
-</div>
-
-<div class="cert-card" markdown>
-**Conservation Mapping — Module 2**
-
-![RCMRD Conservation M2](assets/certificates/cert_rcmrd_conservation_m2.jpg)
-</div>
-
-<div class="cert-card" markdown>
-**Conservation Mapping — Module 3**
-
-![RCMRD Conservation M3](assets/certificates/cert_rcmrd_conservation_m3.jpg)
-</div>
-
-<div class="cert-card" markdown>
-**Conservation Mapping — Module 4**
-
-![RCMRD Conservation M4](assets/certificates/cert_rcmrd_conservation_m4.jpg)
-</div>
+    *Awarded globally to outstanding emerging professionals, recognised at 4YSAM, Mombasa*
 
 </div>
 
----
+## Professional Certifications
 
-## Esri
+### ALX Africa
 
-<div class="cert-grid" markdown>
+<div class="grid cards" markdown>
 
-<div class="cert-card" markdown>
-**Spatial Analysis**
+-   ![ALX Data Science](../assets/%20certificates/cert_alx_data_science.png)
 
-![Esri Spatial Analysis](assets/certificates/cert_esri_spatial_analysis.jpg)
-</div>
+    **Data Science**
 
-<div class="cert-card" markdown>
-**Geo Apps**
+    *Completed 27 February 2026*
 
-![Esri Geo Apps](assets/certificates/cert_esri_geo_apps.png)
-</div>
+    Statistical analysis, applied machine learning, and data-driven decision-making.
 
-</div>
+    [Verify certificate](https://savanna.alxafrica.com/certificates/Lh7Ze2fcxT)
 
----
+-   ![ALX Machine Learning](../assets/%20certificates/cert_alx_machine_learning.png)
 
-## ALX Africa
+    **Machine Learning**
 
-<div class="cert-grid" markdown>
+    Supervised and unsupervised learning, model evaluation, and deployment workflows.
 
-<div class="cert-card" markdown>
-**AI Essentials**
+-   ![ALX Data Analytics](../assets/%20certificates/cert_alx_data_analytics.png)
 
-![ALX AI Essentials](docs/assets/ certificates/cert_alx_ai_essentials.png)
-</div>
+    **Data Analytics**
 
-<div class="cert-card" markdown>
-**Data Analytics**
+    SQL, Power BI, advanced spreadsheets, and end-to-end data analysis workflows.
 
-![ALX Data Analytics](assets/certificates/cert_alx_data_analytics.png)
-</div>
+-   ![ALX Python Programming](../assets/%20certificates/cert_alx_python.png)
 
-<div class="cert-card" markdown>
-**Data Science**
+    **Python Programming**
 
-![ALX Data Science](assets/certificates/cert_alx_data_science.png)
-</div>
+    OOP, error handling, and automation scripting.
 
-<div class="cert-card" markdown>
-**Machine Learning**
+-   ![ALX AI Career Essentials](../assets/%20certificates/cert_alx_ai_essentials.png)
 
-![ALX Machine Learning](assets/certificates/cert_alx_machine_learning.png)
-</div>
+    **AI Career Essentials**
 
-<div class="cert-card" markdown>
-**Python Programming**
+    Generative AI tools, prompt engineering, and AI-augmented workflows.
 
-![ALX Python](assets/certificates/cert_alx_python.png)
-</div>
+-   ![ALX Virtual Assistant](../assets/%20certificates/cert_alx_virtual_assistant.png)
 
-<div class="cert-card" markdown>
-**Professional Foundations**
+    **Virtual Assistant**
 
-![ALX Professional Foundations](assets/certificates/cert_alx_prof_foundations.png)
-</div>
+    Productivity tools, calendar and inbox management, and AI-supported task automation.
 
-<div class="cert-card" markdown>
-**Virtual Assistant**
+-   ![ALX Professional Foundations](../assets/%20certificates/cert_alx_prof_foundations.png)
 
-![ALX Virtual Assistant](assets/certificates/cert_alx_virtual_assistant.png)
-</div>
+    **Professional Foundations**
+
+    Workplace communication, problem-solving, and professional development for the digital economy.
 
 </div>
 
----
+### ESRI
 
-## FIG — International Federation of Surveyors
+<div class="grid cards" markdown>
 
-<div class="cert-grid" markdown>
+-   ![ESRI Going Places with Spatial Analysis](../assets/%20certificates/cert_esri_spatial_analysis.jpg)
 
-<div class="cert-card" markdown>
-**FIG Young Surveyor Grant**
+    **Going Places with Spatial Analysis**
 
-![FIG Grant](assets/certificates/cert_fig_grant.png)
-</div>
+    Core spatial analysis techniques using ArcGIS for solving location-based problems.
 
-<div class="cert-card" markdown>
-**FIG Mentorship**
+-   ![ESRI Making an Impact with Modern Geo Apps](../assets/%20certificates/cert_esri_geo_apps.png)
 
-![FIG Mentorship](assets/certificates/cert_fig_mentorship.jpeg)
-</div>
+    **Making an Impact with Modern Geo Apps**
+
+    Building decision-support tools using ArcGIS Online, Experience Builder, and Dashboards.
 
 </div>
 
----
+### RCMRD (Regional Centre for Mapping of Resources for Development)
 
-## AWISC — African Women in Science and Conservation
+<div class="grid cards" markdown>
 
-<div class="cert-grid" markdown>
+-   ![RCMRD GIS Advanced](../assets/%20certificates/cert_rcmrd_gis_advanced.png)
 
-<div class="cert-card" markdown>
-**AWISC Volunteer Certificate**
+    **GIS Advanced**
 
-![AWISC Volunteer](assets/certificates/cert_awisc_volunteer.png)
+    Advanced spatial analysis and geoprocessing workflows.
+
+-   ![RCMRD GIS Expert](../assets/%20certificates/cert_rcmrd_gis_expert.png)
+
+    **GIS Expert**
+
+    Expert-level geoinformatics including scripting and custom toolbox development.
+
+-   ![RCMRD Conservation Mapping Module 2](../assets/%20certificates/cert_rcmrd_conservation_m2.jpg)
+
+    **Applications of GIS in Conservation Mapping**
+
+    *Module 2*
+
+-   ![RCMRD Conservation Mapping Module 3](../assets/%20certificates/cert_rcmrd_conservation_m3.jpg)
+
+    **Applications of GIS in Conservation Mapping**
+
+    *Module 3*
+
+-   ![RCMRD Conservation Mapping Module 4](../assets/%20certificates/cert_rcmrd_conservation_m4.jpg)
+
+    **Applications of GIS in Conservation Mapping**
+
+    *Module 4*
+
 </div>
+
+## Volunteer and Leadership
+
+<div class="grid cards" markdown>
+
+-   ![FIG Mentorship](../assets/%20certificates/cert_fig_mentorship.jpeg)
+
+    **FIG Mentorship Programme**
+
+    International Federation of Surveyors
+
+    *Mentorship engagement with the FIG Young Surveyors Network*
+
+-   ![AWISC Volunteer](../assets/%20certificates/cert_awisc_volunteer.png)
+
+    **AWISC Volunteer**
+
+    Africa Women in Surveying Conference
+
+    *Volunteer service in support of women in the surveying profession*
 
 </div>
