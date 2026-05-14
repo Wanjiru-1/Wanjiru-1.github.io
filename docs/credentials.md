@@ -26,7 +26,7 @@ A combination of academic qualifications, professional certifications, and recog
 
     International Federation of Surveyors
 
-    *Awarded globally to outstanding emerging professionals, recognised at 4YSAM, Mombasa*
+    *Awarded globally by FIG to outstanding emerging professionals, recognised at the 4th FIG Young Surveyors Africa Meeting (4YSAM), held alongside the 10th ISK Africa Regional Conference and 28th CASLE Conference in Mombasa, October 2025*
 
 </div>
 
@@ -42,45 +42,45 @@ A combination of academic qualifications, professional certifications, and recog
 
     *Completed 27 February 2026*
 
-    Statistical analysis, applied machine learning, and data-driven decision-making.
+    Foundations of data science, statistical analysis, and applied machine learning for real-world datasets.
 
     [Verify certificate](https://savanna.alxafrica.com/certificates/Lh7Ze2fcxT)
-
--   ![ALX Machine Learning](../assets/%20certificates/cert_alx_machine_learning.png)
-
-    **Machine Learning**
-
-    Supervised and unsupervised learning, model evaluation, and deployment workflows.
-
--   ![ALX Data Analytics](../assets/%20certificates/cert_alx_data_analytics.png)
-
-    **Data Analytics**
-
-    SQL, Power BI, advanced spreadsheets, and end-to-end data analysis workflows.
 
 -   ![ALX Python Programming](../assets/%20certificates/cert_alx_python.png)
 
     **Python Programming**
 
-    OOP, error handling, and automation scripting.
+    Syntax, object-oriented programming, error handling, and scripting for automation.
+
+-   ![ALX Data Analytics](../assets/%20certificates/cert_alx_data_analytics.png)
+
+    **Data Analytics**
+
+    SQL for database querying, Power BI for data visualisation, advanced spreadsheet techniques, and data analysis workflows.
 
 -   ![ALX AI Career Essentials](../assets/%20certificates/cert_alx_ai_essentials.png)
 
     **AI Career Essentials**
 
-    Generative AI tools, prompt engineering, and AI-augmented workflows.
+    Generative AI tools for content creation, data analysis, workflow automation, and prompt engineering.
 
 -   ![ALX Virtual Assistant](../assets/%20certificates/cert_alx_virtual_assistant.png)
 
     **Virtual Assistant**
 
-    Productivity tools, calendar and inbox management, and AI-supported task automation.
+    Calendar management, inbox organisation, data entry, social media management, and AI productivity tools.
+
+-   ![ALX Machine Learning](../assets/%20certificates/cert_alx_machine_learning.png)
+
+    **Machine Learning**
+
+    [Description needed: please tell me what this track covered]
 
 -   ![ALX Professional Foundations](../assets/%20certificates/cert_alx_prof_foundations.png)
 
     **Professional Foundations**
 
-    Workplace communication, problem-solving, and professional development for the digital economy.
+    [Description needed: please tell me what this track covered]
 
 </div>
 
@@ -92,13 +92,13 @@ A combination of academic qualifications, professional certifications, and recog
 
     **Going Places with Spatial Analysis**
 
-    Core spatial analysis techniques using ArcGIS for solving location-based problems.
+    Six-week ESRI MOOC introducing spatial data analysis using ArcGIS Online. Covers spatial patterns, descriptive statistics, projection, and hands-on workflows using cloud-based mapping tools.
 
 -   ![ESRI Making an Impact with Modern Geo Apps](../assets/%20certificates/cert_esri_geo_apps.png)
 
     **Making an Impact with Modern Geo Apps**
 
-    Building decision-support tools using ArcGIS Online, Experience Builder, and Dashboards.
+    Applied use of modern geospatial web applications including ArcGIS Online, Experience Builder, and Dashboards to deliver spatial insights and support decision-making.
 
 </div>
 
@@ -110,31 +110,31 @@ A combination of academic qualifications, professional certifications, and recog
 
     **GIS Advanced**
 
-    Advanced spatial analysis and geoprocessing workflows.
+    [Description needed: what specific skills did this badge cover?]
 
 -   ![RCMRD GIS Expert](../assets/%20certificates/cert_rcmrd_gis_expert.png)
 
     **GIS Expert**
 
-    Expert-level geoinformatics including scripting and custom toolbox development.
+    [Description needed: what specific skills did this badge cover?]
 
 -   ![RCMRD Conservation Mapping Module 2](../assets/%20certificates/cert_rcmrd_conservation_m2.jpg)
 
-    **Applications of GIS in Conservation Mapping**
+    **Applications of GIS in Conservation Mapping, Module 2**
 
-    *Module 2*
+    [Description needed: what does Module 2 cover?]
 
 -   ![RCMRD Conservation Mapping Module 3](../assets/%20certificates/cert_rcmrd_conservation_m3.jpg)
 
-    **Applications of GIS in Conservation Mapping**
+    **Applications of GIS in Conservation Mapping, Module 3**
 
-    *Module 3*
+    [Description needed: what does Module 3 cover?]
 
 -   ![RCMRD Conservation Mapping Module 4](../assets/%20certificates/cert_rcmrd_conservation_m4.jpg)
 
-    **Applications of GIS in Conservation Mapping**
+    **Applications of GIS in Conservation Mapping, Module 4**
 
-    *Module 4*
+    [Description needed: what does Module 4 cover?]
 
 </div>
 
@@ -148,14 +148,14 @@ A combination of academic qualifications, professional certifications, and recog
 
     International Federation of Surveyors
 
-    *Mentorship engagement with the FIG Young Surveyors Network*
+    *[Please confirm: was this mentee or mentor? Which year? Which network?]*
 
--   ![AWISC Volunteer](../assets/%20certificates/cert_awisc_volunteer.png)
+-   ![AWiSC Volunteer](../assets/%20certificates/cert_awisc_volunteer.png)
 
-    **AWISC Volunteer**
+    **African Women in Space Conference (AWiSC) 2025 Volunteer**
 
-    Africa Women in Surveying Conference
+    Strathmore University, Nairobi | 27 to 28 November 2025
 
-    *Volunteer service in support of women in the surveying profession*
+    *Volunteer at the inaugural AWiSC, organised by Women in Space Kenya, focused on space sciences, gender inclusion in Africa's space ecosystem, and the role of geospatial technology in sustainable development.*
 
 </div>
