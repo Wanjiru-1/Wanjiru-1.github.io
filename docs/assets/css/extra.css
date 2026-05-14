@@ -401,7 +401,7 @@ hr {
 
 /* Contact card styling */
 .contact-card {
-  background: var(--md-primary-fg-color--light, #e8f4f8);
+  background: var(--md-primary-fg-color--light, #000000);
   padding: 1rem 1.5rem;
   border-radius: 8px;
   margin: 1rem 0;
