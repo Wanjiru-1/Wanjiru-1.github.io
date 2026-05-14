@@ -7,39 +7,28 @@ description: Technical and professional skills of Jecinta Wanjiru Kinyanjui
 
 ## GIS & Remote Sensing
 
-<div class="skills-grid" markdown>
+<div class="grid cards" markdown>
 
-<div class="skill-card" markdown>
+-   :map:{ .lg .middle } **GIS Platforms & Field Surveying**
 
-:material-map: **GIS Platforms**
+    ---
 
-- ArcGIS Pro
-- QGIS
-- Google Earth Engine
-- ArcGIS Online & Experience Builder
+    * ArcGIS Pro, QGIS
+    * Google Earth Engine
+    * ArcGIS Online & Experience Builder
+    * GNSS / RTK
+    * Cadastral surveying
 
-</div>
+-   :satellite:{ .lg .middle } **Remote Sensing & Web Mapping**
 
-<div class="skill-card" markdown>
+    ---
 
-:material-earth: **Remote Sensing**
-
-- Satellite imagery analysis
-- Land use & land cover mapping
-- Climate & drought monitoring
-- Change detection
-- UAV / drone data processing
-
-</div>
-
-<div class="skill-card" markdown>
-
-:material-web: **Web Mapping**
-
-- Leaflet.js interactive dashboards
-- Google Earth Engine Apps
-- ArcGIS Dashboards
-- GitHub Pages deployment
+    * Satellite imagery analysis (Sentinel-1, Sentinel-2)
+    * Land use & land cover mapping
+    * Climate & drought monitoring
+    * Change detection
+    * Leaflet.js, ArcGIS Dashboards
+    * GitHub Pages deployment
 
 </div>
 
