@@ -18,9 +18,42 @@ I am open to opportunities in climate analytics, geospatial data science, and so
   <a href="https://www.linkedin.com/in/jecinta-wanjiru-" style="color: #ffffff; margin: 0 8px;">LinkedIn</a> |
   <a href="https://github.com/Wanjiru-1" style="color: #ffffff; margin-left: 8px;">GitHub</a>
 </div>
+
 </div>
 
 [See my work](projects/){ .md-button .md-button--primary }
 [Download CV](assets/Jecinta_Wanjiru_CV.pdf){ .md-button }
 
 ---
+
+## Featured projects
+
+<div class="grid cards" markdown>
+
+-   ![Elgeyo Marakwet Landslide Dashboard](assets/images/elgeyo_landslide.jpeg)
+
+    **Elgeyo Marakwet Landslide Dashboard**
+
+    Interactive risk classification across an entire county, built to support disaster officers.
+
+    [Read more →](projects/elgeyo-landslide.md)
+
+-   ![Nairobi Flood Hotspots](assets/images/nairobi_flood.jpeg)
+
+    **Nairobi Flood Hotspots**
+
+    Citywide mapping of flood-prone zones to support drainage and infrastructure planning.
+
+    [Read more →](projects/nairobi-flood-hotspots.md)
+
+-   ![Kenya Climate Risk Dashboard](assets/images/kenya_youth_dashboard.png)
+
+    **Kenya Climate Risk Dashboard 2025**
+
+    National-scale maps showing drought and flood-prone zones across all 47 counties.
+
+    [Read more →](projects/kenya-youth-dashboard.md)
+
+</div>
+
+[Browse all projects →](projects/){ .md-button }
