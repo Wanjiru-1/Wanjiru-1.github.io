@@ -12,7 +12,7 @@ Real-world geospatial work addressing climate risk, food security, and disaster 
 
     *Stack: Google Earth Engine, JavaScript, Sentinel-2, SRTM*
 
-    [Read more →](landslide-dashboard.md)
+    [Read more →](elgeyo-landslide.md)
 
 -   ![Nairobi Flood Hotspots](../assets/images/nairobi_flood.jpeg)
 
@@ -22,7 +22,7 @@ Real-world geospatial work addressing climate risk, food security, and disaster 
 
     *Stack: Python, QGIS, Sentinel-1, Google Earth Engine*
 
-    [Read more →](flood-hotspots.md)
+    [Read more →](nairobi-flood-hotspots.md)
 
 -   ![Kenya Climate Risk Dashboard](../assets/images/kenya_youth_dashboard.png)
 
@@ -32,7 +32,7 @@ Real-world geospatial work addressing climate risk, food security, and disaster 
 
     *Stack: Google Earth Engine, Python, Leaflet*
 
-    [Read more →](climate-risk-dashboard.md)
+    [Read more →](kenya-youth-dashboard.md)
 
 </div>
 
