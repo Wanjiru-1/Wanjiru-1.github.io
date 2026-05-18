@@ -1,4 +1,4 @@
-# Projects
+# Projects { .hero-projects }
 
 Real-world geospatial work addressing climate risk, food security, and disaster preparedness across Kenya. Each project leads with the problem it addresses, the population it serves, and the outcomes it enables.
 
