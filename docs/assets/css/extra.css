@@ -947,3 +947,62 @@ body[data-md-color-scheme] .md-content article.md-content__inner > h1:first-of-t
   color: white !important;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
+/* ============================================
+   PER-PAGE HERO BACKGROUND BANDS
+   ============================================ */
+
+/* Common styling for all per-page hero bands */
+.md-typeset h1.hero-projects,
+.md-typeset h1.hero-skills,
+.md-typeset h1.hero-experience,
+.md-typeset h1.hero-credentials,
+.md-typeset h1.hero-volunteer {
+  position: relative;
+  padding: 4rem 2rem 3rem 2rem !important;
+  margin: -1.5rem -1.5rem 2.5rem -1.5rem !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 0 0 20px 20px;
+  overflow: hidden;
+  color: white !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark green gradient overlay for readability on all per-page heroes */
+.md-typeset h1.hero-projects::before,
+.md-typeset h1.hero-skills::before,
+.md-typeset h1.hero-experience::before,
+.md-typeset h1.hero-credentials::before,
+.md-typeset h1.hero-volunteer::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(135deg, 
+    rgba(0, 30, 15, 0.78) 0%, 
+    rgba(0, 60, 30, 0.68) 50%, 
+    rgba(0, 80, 40, 0.65) 100%);
+  z-index: 1;
+}
+
+/* Per-page background images */
+.md-typeset h1.hero-projects {
+  background-image: url('https://images.unsplash.com/photo-1569163139394-de4798aa62b6?w=1600&q=85') !important;
+}
+
+.md-typeset h1.hero-skills {
+  background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=85') !important;
+}
+
+.md-typeset h1.hero-experience {
+  background-image: url('https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&q=85') !important;
+}
+
+.md-typeset h1.hero-credentials {
+  background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=85') !important;
+}
+
+.md-typeset h1.hero-volunteer {
+  background-image: url('https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=1600&q=85') !important;
+}
