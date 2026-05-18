@@ -2,8 +2,7 @@
 title: Skills
 description: Technical and professional skills of Jecinta Wanjiru Kinyanjui
 ---
-
-# Skills
+# Skills { .hero-skills }
 
 <style>
 .tool-list { list-style: none; padding: 0; margin: 0.75rem 0 0 0; }
