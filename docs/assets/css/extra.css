@@ -855,3 +855,50 @@ hr {
     transition-duration: 0.01ms !important;
   }
 }
+/* ============================================
+   BOLD GREEN TITLE WITH GLOW
+   ============================================ */
+
+/* Import Google Font for hero title */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&family=Space+Grotesk:wght@600;700&display=swap');
+
+/* Hero typewriter title: bold, green, glowing, custom font */
+.typewriter-hero {
+  font-family: 'Space Grotesk', 'Poppins', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 2.8rem !important;
+  color: #2E7D32 !important;
+  text-shadow: 
+    0 0 10px rgba(76, 175, 80, 0.6),
+    0 0 20px rgba(76, 175, 80, 0.4),
+    0 0 40px rgba(76, 175, 80, 0.2);
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+  background: linear-gradient(135deg, #2E7D32 0%, #66BB6A 50%, #43A047 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glow-pulse 3s ease-in-out infinite;
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 8px rgba(76, 175, 80, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 20px rgba(76, 175, 80, 0.8));
+  }
+}
+
+/* Make the typewriter cursor green to match */
+.typewriter-cursor {
+  background: #2E7D32 !important;
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.8);
+}
+
+/* Responsive sizing */
+@media (max-width: 768px) {
+  .typewriter-hero {
+    font-size: 1.8rem !important;
+  }
+}
