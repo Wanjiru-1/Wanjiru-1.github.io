@@ -34,7 +34,9 @@ theme:
 
 extra_css:
   - assets/css/extra.css
-
+  
+extra_javascript:
+  - assets/js/interactions.js
 markdown_extensions:
   - md_in_html
   - attr_list
