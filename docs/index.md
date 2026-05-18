@@ -1,5 +1,5 @@
 # <span class="typewriter-hero">Mapping a more equitable Africa through data</span>
-{ .hero-home }
+
 Geospatial Data Scientist · Climate and Social Impact Analytics · Nairobi, Kenya
 
 ![Professional headshot of Jecinta Wanjiru Kinyanjui](assets/images/jecinta_headshot.jpeg){ .profile-image }
