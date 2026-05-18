@@ -902,3 +902,48 @@ hr {
     font-size: 1.8rem !important;
   }
 }
+/* ============================================
+   PAGE HERO BACKGROUNDS
+   ============================================ */
+
+/* Common hero band styling */
+body[data-md-color-scheme] .md-content article.md-content__inner > h1:first-of-type {
+  position: relative;
+  padding: 4rem 2rem 3rem 2rem !important;
+  margin: -1.5rem -1.5rem 2rem -1.5rem !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 0 0 16px 16px;
+  overflow: hidden;
+}
+
+/* Dark gradient overlay for text readability on every hero */
+body[data-md-color-scheme] .md-content article.md-content__inner > h1:first-of-type::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(135deg, 
+    rgba(0, 40, 20, 0.75) 0%, 
+    rgba(0, 60, 30, 0.65) 50%, 
+    rgba(0, 80, 40, 0.7) 100%);
+  z-index: 1;
+}
+
+body[data-md-color-scheme] .md-content article.md-content__inner > h1:first-of-type > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* PER-PAGE BACKGROUND IMAGES (apply by URL match) */
+
+/* Home page: satellite imagery aesthetic */
+body[data-md-color-scheme] .md-content article.md-content__inner > h1:first-of-type {
+  background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&q=80');
+}
+
+/* Override per page using body attributes */
+.md-typeset h1 {
+  color: white !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
