@@ -470,3 +470,388 @@ hr {
     grid-template-columns: 1fr !important;
   }
 }
+/* ============================================
+   BOLD INTERACTIVE STYLE
+   ============================================ */
+
+/* Cards lift dramatically on hover with glow */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > * {
+  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+              box-shadow 0.35s ease, 
+              border-color 0.3s ease !important;
+  cursor: default;
+}
+
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid.cards > *:hover {
+  transform: translateY(-12px) scale(1.02) !important;
+  box-shadow: 0 20px 40px rgba(76, 175, 80, 0.25), 
+              0 0 0 2px var(--md-primary-fg-color) !important;
+  border-color: var(--md-primary-fg-color) !important;
+}
+
+/* Images zoom noticeably on hover */
+.md-typeset .grid.cards img {
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+  border-radius: 8px;
+}
+
+.md-typeset .grid.cards > ul > li:hover img,
+.md-typeset .grid.cards > *:hover img {
+  transform: scale(1.08) !important;
+}
+
+/* Buttons with glow effect on hover */
+.md-typeset .md-button {
+  transition: all 0.3s ease !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.md-typeset .md-button:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(76, 175, 80, 0.4),
+              0 0 30px rgba(76, 175, 80, 0.2);
+}
+
+.md-typeset .md-button--primary:hover {
+  box-shadow: 0 8px 25px rgba(76, 175, 80, 0.6),
+              0 0 40px rgba(76, 175, 80, 0.3);
+}
+
+/* Profile photo with bold glow on hover */
+.profile-image {
+  transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease !important;
+  cursor: default;
+}
+
+.profile-image:hover {
+  transform: scale(1.08) rotate(2deg) !important;
+  box-shadow: 0 15px 40px rgba(76, 175, 80, 0.4),
+              0 0 60px rgba(76, 175, 80, 0.25) !important;
+  filter: brightness(1.05);
+}
+
+/* About/field photo also responds */
+.about-image {
+  transition: transform 0.4s ease, box-shadow 0.4s ease !important;
+}
+
+.about-image:hover {
+  transform: scale(1.04);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Links: bold sliding underline with color shift */
+.md-typeset a:not(.md-button):not(.md-nav__link):not(.md-header__button) {
+  position: relative;
+  transition: color 0.25s ease;
+  font-weight: 500;
+}
+
+.md-typeset a:not(.md-button):not(.md-nav__link):not(.md-header__button)::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: -3px;
+  left: 0;
+  background: linear-gradient(90deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+  transition: width 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.md-typeset a:not(.md-button):not(.md-nav__link):not(.md-header__button):hover::after {
+  width: 100%;
+}
+
+/* Certificate images: dramatic hover */
+.md-typeset .grid.cards img[alt*="ert"]:hover,
+.md-typeset .grid.cards img[alt*="ant"]:hover,
+.md-typeset .grid.cards img[alt*="rad"]:hover {
+  box-shadow: 0 15px 35px rgba(76, 175, 80, 0.35);
+  transform: scale(1.12) rotate(-1deg) !important;
+}
+
+/* Section headings get a subtle accent on hover */
+.md-typeset h2, .md-typeset h3 {
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: default;
+}
+
+.md-typeset h2:hover {
+  color: var(--md-primary-fg-color);
+  transform: translateX(8px);
+}
+
+/* Navigation items pulse on hover */
+.md-tabs__link, .md-nav__link {
+  transition: color 0.25s ease, transform 0.25s ease !important;
+}
+
+.md-tabs__link:hover {
+  transform: translateY(-2px);
+  color: var(--md-accent-fg-color) !important;
+}
+
+/* ============================================
+   SCROLL FADE-IN ANIMATIONS
+   ============================================ */
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: opacity, transform;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Auto-apply fade-in to all h2 and content sections */
+.md-typeset h2,
+.md-typeset .grid.cards {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.md-typeset h2.is-visible,
+.md-typeset .grid.cards.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============================================
+   TYPEWRITER HERO
+   ============================================ */
+
+.typewriter-hero {
+  display: inline-block;
+  position: relative;
+}
+
+.typewriter-cursor {
+  display: inline-block;
+  width: 3px;
+  background: var(--md-primary-fg-color);
+  animation: blink 1s step-end infinite;
+  margin-left: 4px;
+  vertical-align: middle;
+  height: 1em;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* Hide cursor once typing is done */
+.typewriter-done .typewriter-cursor {
+  display: none;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================
+   BOLD INTERACTIVE STYLE
+   ============================================ */
+
+/* Cards lift dramatically on hover with glow */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > * {
+  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+              box-shadow 0.35s ease, 
+              border-color 0.3s ease !important;
+  cursor: default;
+}
+
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid.cards > *:hover {
+  transform: translateY(-12px) scale(1.02) !important;
+  box-shadow: 0 20px 40px rgba(76, 175, 80, 0.25), 
+              0 0 0 2px var(--md-primary-fg-color) !important;
+  border-color: var(--md-primary-fg-color) !important;
+}
+
+/* Images zoom noticeably on hover */
+.md-typeset .grid.cards img {
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+  border-radius: 8px;
+}
+
+.md-typeset .grid.cards > ul > li:hover img,
+.md-typeset .grid.cards > *:hover img {
+  transform: scale(1.08) !important;
+}
+
+/* Buttons with glow effect on hover */
+.md-typeset .md-button {
+  transition: all 0.3s ease !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.md-typeset .md-button:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(76, 175, 80, 0.4),
+              0 0 30px rgba(76, 175, 80, 0.2);
+}
+
+.md-typeset .md-button--primary:hover {
+  box-shadow: 0 8px 25px rgba(76, 175, 80, 0.6),
+              0 0 40px rgba(76, 175, 80, 0.3);
+}
+
+/* Profile photo with bold glow on hover */
+.profile-image {
+  transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease !important;
+  cursor: default;
+}
+
+.profile-image:hover {
+  transform: scale(1.08) rotate(2deg) !important;
+  box-shadow: 0 15px 40px rgba(76, 175, 80, 0.4),
+              0 0 60px rgba(76, 175, 80, 0.25) !important;
+  filter: brightness(1.05);
+}
+
+/* About/field photo also responds */
+.about-image {
+  transition: transform 0.4s ease, box-shadow 0.4s ease !important;
+}
+
+.about-image:hover {
+  transform: scale(1.04);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Links: bold sliding underline with color shift */
+.md-typeset a:not(.md-button):not(.md-nav__link):not(.md-header__button) {
+  position: relative;
+  transition: color 0.25s ease;
+  font-weight: 500;
+}
+
+.md-typeset a:not(.md-button):not(.md-nav__link):not(.md-header__button)::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: -3px;
+  left: 0;
+  background: linear-gradient(90deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+  transition: width 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.md-typeset a:not(.md-button):not(.md-nav__link):not(.md-header__button):hover::after {
+  width: 100%;
+}
+
+/* Certificate images: dramatic hover */
+.md-typeset .grid.cards img[alt*="ert"]:hover,
+.md-typeset .grid.cards img[alt*="ant"]:hover,
+.md-typeset .grid.cards img[alt*="rad"]:hover {
+  box-shadow: 0 15px 35px rgba(76, 175, 80, 0.35);
+  transform: scale(1.12) rotate(-1deg) !important;
+}
+
+/* Section headings get a subtle accent on hover */
+.md-typeset h2, .md-typeset h3 {
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: default;
+}
+
+.md-typeset h2:hover {
+  color: var(--md-primary-fg-color);
+  transform: translateX(8px);
+}
+
+/* Navigation items pulse on hover */
+.md-tabs__link, .md-nav__link {
+  transition: color 0.25s ease, transform 0.25s ease !important;
+}
+
+.md-tabs__link:hover {
+  transform: translateY(-2px);
+  color: var(--md-accent-fg-color) !important;
+}
+
+/* ============================================
+   SCROLL FADE-IN ANIMATIONS
+   ============================================ */
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: opacity, transform;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Auto-apply fade-in to all h2 and content sections */
+.md-typeset h2,
+.md-typeset .grid.cards {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.md-typeset h2.is-visible,
+.md-typeset .grid.cards.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============================================
+   TYPEWRITER HERO
+   ============================================ */
+
+.typewriter-hero {
+  display: inline-block;
+  position: relative;
+}
+
+.typewriter-cursor {
+  display: inline-block;
+  width: 3px;
+  background: var(--md-primary-fg-color);
+  animation: blink 1s step-end infinite;
+  margin-left: 4px;
+  vertical-align: middle;
+  height: 1em;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* Hide cursor once typing is done */
+.typewriter-done .typewriter-cursor {
+  display: none;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
