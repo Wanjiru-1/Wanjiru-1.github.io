@@ -1,4 +1,4 @@
-# Certifications and Credentials
+# Certifications and Credentials { .hero-credentials }
 
 A combination of academic qualifications, professional certifications, and recognition for service and leadership in the geospatial community.
 
