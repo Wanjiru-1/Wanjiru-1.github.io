@@ -3,7 +3,7 @@ title: Volunteer
 description: Volunteer work and community involvement by Jecinta Wanjiru Kinyanjui
 ---
 
-# Volunteer
+# Volunteer { .hero-volunteer }
 
 I believe maps save lives. Whether it's routing emergency responders to flood victims in Nairobi, or helping health workers find girls at risk of FGM in rural Tanzania, putting communities on the map is one of the most direct ways geospatial skills can create real human impact.
 
