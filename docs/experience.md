@@ -3,8 +3,7 @@ title: Experience & Education
 description: Jecinta Wanjiru's professional experience and educational background
 ---
 
-# Experience and Education
-
+# Experience and Education { .hero-experience }
 ## Professional Experience
 
 ### Attachee, GIS and Data Analyst
