@@ -1,4 +1,4 @@
-# Mapping a *more equitable* Africa through data
+# <span class="typewriter-hero">Mapping a more equitable Africa through data</span>
 
 Geospatial Data Scientist · Climate and Social Impact Analytics · Nairobi, Kenya
 
