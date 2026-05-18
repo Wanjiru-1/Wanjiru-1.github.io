@@ -1,425 +1,7 @@
-/* ================================================================
-   Jecinta Wanjiru Portfolio — Custom MkDocs Material Overrides
-   ================================================================ */
+/* ============================================
+   CARD SIZING (2 columns max, readable text)
+   ============================================ */
 
-/* ── Design tokens ─────────────────────────────────────────────── */
-:root {
-  --soil:       #3D2B1F;
-  --earth:      #7B5C3E;
-  --sand:       #C8A97E;
-  --savanna:    #E8D5B0;
-  --forest:     #276749;
-  --moss:       #48BB78;
-  --moss-light: #C6F6D5;
-  --cream:      #FDFAF5;
-  --mist:       #F7F3EC;
-  --line:       rgba(61,43,31,0.12);
-  --shadow:     0 4px 24px rgba(61,43,31,0.10);
-  --shadow-lg:  0 12px 48px rgba(61,43,31,0.15);
-}
-
-/* ── Base body & content ────────────────────────────────────────── */
-.md-content__inner {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 1.5rem 3rem;
-}
-
-/* ── HERO SECTION ───────────────────────────────────────────────── */
-.hero-section {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 3rem;
-  align-items: center;
-  padding: 3rem 0 2.5rem;
-  position: relative;
-}
-
-.hero-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  background: var(--moss-light);
-  color: var(--forest);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  padding: 0.3rem 0.85rem;
-  border-radius: 100px;
-  margin-bottom: 1rem;
-}
-
-.hero-text h1 {
-  font-size: clamp(2rem, 4vw, 3.2rem) !important;
-  line-height: 1.1 !important;
-  letter-spacing: -0.03em !important;
-  color: var(--soil) !important;
-  margin-bottom: 1rem !important;
-  border: none !important;
-}
-
-.hero-text h1 strong {
-  color: var(--forest) !important;
-}
-
-.hero-text p {
-  font-size: 1.05rem;
-  color: var(--earth);
-  max-width: 440px;
-  line-height: 1.7;
-  margin-bottom: 1.25rem;
-}
-
-.hero-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 1.75rem;
-}
-
-/* Profile photo */
-.hero-photo {
-  display: flex;
-  justify-content: center;
-}
-
-.profile-photo {
-  width: clamp(160px, 18vw, 240px) !important;
-  height: clamp(200px, 23vw, 300px) !important;
-  object-fit: cover !important;
-  border-radius: 140px 140px 80px 80px !important;
-  box-shadow: var(--shadow-lg) !important;
-  border: 4px solid white !important;
-  outline: 6px solid var(--moss-light) !important;
-  display: block;
-}
-
-/* ── ABOUT GRID ─────────────────────────────────────────────────── */
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  align-items: start;
-  margin: 1.5rem 0;
-}
-
-.about-text p {
-  color: var(--earth);
-  line-height: 1.8;
-}
-
-.about-photo .field-photo {
-  width: 100% !important;
-  border-radius: 12px !important;
-  box-shadow: var(--shadow) !important;
-  object-fit: cover !important;
-  max-height: 380px;
-}
-
-.about-photo em {
-  display: block;
-  margin-top: 0.5rem;
-  font-size: 0.82rem;
-  color: var(--earth);
-}
-
-/* ── SKILLS GRID ────────────────────────────────────────────────── */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  gap: 1.25rem;
-  margin: 1.5rem 0;
-}
-
-.skill-card {
-  background: white;
-  border: 1.5px solid var(--line);
-  border-radius: 12px;
-  padding: 1.25rem 1.25rem 1rem;
-  box-shadow: var(--shadow);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.skill-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
-}
-
-.skill-card p strong {
-  font-size: 0.9rem;
-  color: var(--soil);
-  display: block;
-  margin-bottom: 0.75rem;
-}
-
-.skill-card ul {
-  margin: 0;
-  padding-left: 1.1rem;
-}
-
-.skill-card li {
-  font-size: 0.85rem;
-  color: var(--earth);
-  line-height: 1.6;
-  margin-bottom: 0.2rem;
-}
-
-/* ── PROJECT CARDS ──────────────────────────────────────────────── */
-.project-card {
-  background: white;
-  border: 1.5px solid var(--line);
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: var(--shadow);
-  margin: 1.5rem 0;
-  transition: transform 0.25s, box-shadow 0.25s;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-lg);
-}
-
-/* Featured card: side-by-side */
-.project-card.featured {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.project-card-img img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
-  object-position: top !important;
-  border-radius: 0 !important;
-  display: block;
-  min-height: 240px;
-  margin: 0 !important;
-}
-
-.project-card-body {
-  padding: 1.75rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
-}
-
-.project-card-body p strong a {
-  font-size: 1.05rem !important;
-  color: var(--soil) !important;
-  text-decoration: none !important;
-  font-weight: 700 !important;
-}
-
-.project-card-body p strong a:hover {
-  color: var(--forest) !important;
-}
-
-.project-card-body p {
-  font-size: 0.9rem;
-  color: var(--earth);
-  line-height: 1.65;
-}
-
-.project-card-body a:not(strong a) {
-  display: inline-flex;
-  align-items: center;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--forest) !important;
-  text-decoration: none !important;
-  margin-top: auto;
-  padding-top: 0.75rem;
-  border-top: 1px solid var(--line);
-}
-
-.project-card-body a:not(strong a):hover {
-  gap: 0.5rem;
-}
-
-/* ── INLINE CODE = skill tags ───────────────────────────────────── */
-code {
-  background: var(--moss-light) !important;
-  color: var(--forest) !important;
-  border-radius: 100px !important;
-  padding: 0.15rem 0.65rem !important;
-  font-size: 0.75rem !important;
-  font-weight: 600 !important;
-  font-family: inherit !important;
-  letter-spacing: 0.03em;
-  border: none !important;
-}
-
-/* ── BUTTONS ────────────────────────────────────────────────────── */
-.md-button {
-  border-radius: 100px !important;
-  font-weight: 600 !important;
-  font-size: 0.9rem !important;
-  padding: 0.65rem 1.6rem !important;
-  transition: transform 0.2s, box-shadow 0.2s !important;
-}
-
-.md-button:hover {
-  transform: translateY(-2px);
-}
-
-.md-button--primary {
-  background: var(--forest) !important;
-  border-color: var(--forest) !important;
-  box-shadow: 0 4px 16px rgba(39,103,73,0.25) !important;
-}
-
-.md-button--primary:hover {
-  background: var(--soil) !important;
-  border-color: var(--soil) !important;
-}
-
-/* ── HEADINGS ───────────────────────────────────────────────────── */
-.md-content h2 {
-  font-size: 1.6rem !important;
-  font-weight: 800 !important;
-  color: var(--soil) !important;
-  letter-spacing: -0.02em !important;
-  margin-top: 2.5rem !important;
-  border: none !important;
-}
-
-.md-content h3 {
-  font-size: 1.05rem !important;
-  font-weight: 700 !important;
-  color: var(--soil) !important;
-  margin-top: 1.5rem !important;
-}
-
-/* ── TABLES ─────────────────────────────────────────────────────── */
-.md-typeset table:not([class]) {
-  border-radius: 10px;
-  overflow: hidden;
-  border: 1.5px solid var(--line);
-  box-shadow: var(--shadow);
-}
-
-.md-typeset table:not([class]) th {
-  background: var(--mist) !important;
-  color: var(--soil) !important;
-  font-weight: 700;
-  font-size: 0.85rem;
-}
-
-.md-typeset table:not([class]) td {
-  font-size: 0.9rem;
-  color: var(--earth);
-}
-
-/* ── HORIZONTAL RULES ───────────────────────────────────────────── */
-hr {
-  border: none !important;
-  border-top: 1.5px solid var(--line) !important;
-  margin: 2.5rem 0 !important;
-}
-
-/* ── CERT GRID ──────────────────────────────────────────────────── */
-.cert-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.cert-card {
-  background: white;
-  border: 1.5px solid var(--line);
-  border-radius: 12px;
-  padding: 1.25rem;
-  box-shadow: var(--shadow);
-  transition: transform 0.2s, box-shadow 0.2s;
-  text-align: center;
-}
-
-.cert-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
-}
-
-.cert-card p strong {
-  display: block;
-  font-size: 0.9rem;
-  color: var(--soil);
-  margin-bottom: 0.75rem;
-  font-weight: 700;
-}
-
-.cert-card img {
-  width: 100% !important;
-  border-radius: 8px !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08) !important;
-  margin: 0 !important;
-  cursor: zoom-in;
-  transition: transform 0.2s;
-}
-
-.cert-card img:hover {
-  transform: scale(1.02);
-}
-
-/* ── RESPONSIVE ─────────────────────────────────────────────────── */
-@media (max-width: 820px) {
-  .hero-section {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-  .hero-photo { display: none; }
-  .hero-text p { max-width: 100%; }
-  .about-grid { grid-template-columns: 1fr; }
-  .project-card.featured { grid-template-columns: 1fr; }
-  .skills-grid { grid-template-columns: 1fr 1fr; }
-}
-
-@media (max-width: 520px) {
-  .skills-grid { grid-template-columns: 1fr; }
-}
-
-/* Passport-style headshot on home page */
-.profile-image {
-  width: 180px !important;
-  height: 220px !important;
-  object-fit: cover;
-  border-radius: 8px;
-  display: block;
-  margin: 1rem auto;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-/* About section field photo */
-.about-image {
-  max-width: 400px;
-  border-radius: 8px;
-  margin: 1.5rem auto;
-  display: block;
-}
-
-/* Contact card styling */
-.contact-card {
-  background: var(--md-primary-fg-color--light, #000000);
-  padding: 1rem 1.5rem;
-  border-radius: 8px;
-  margin: 1rem 0;
-  text-align: center;
-}
-/* Make contact section text clearly visible on green background */
-.md-typeset .contact-section,
-[data-md-color-scheme] footer,
-.md-footer {
-  color: #ffffff !important;
-}
-
-.md-typeset a[href^="mailto"],
-.md-typeset a[href^="tel"] {
-  color: #ffffff !important;
-  text-decoration: underline;
-}
-/* Force 2 columns on desktop, 1 on mobile, for all grid cards */
 .md-typeset .grid.cards {
   grid-template-columns: repeat(2, 1fr) !important;
   gap: 1.25rem !important;
@@ -447,40 +29,74 @@ hr {
   margin-bottom: 0.5rem !important;
 }
 
-/* Mobile: stack to 1 column */
 @media (max-width: 768px) {
   .md-typeset .grid.cards {
     grid-template-columns: 1fr !important;
   }
 }
 
-/* For credentials page: allow 3 columns on wide screens since cards are smaller */
-.md-typeset .credentials-grid .grid.cards {
-  grid-template-columns: repeat(3, 1fr) !important;
-}
-
-@media (max-width: 1100px) {
-  .md-typeset .credentials-grid .grid.cards {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .md-typeset .credentials-grid .grid.cards {
-    grid-template-columns: 1fr !important;
-  }
-}
 /* ============================================
-   BOLD INTERACTIVE STYLE
+   PROFILE IMAGE (passport-sized headshot)
    ============================================ */
 
-/* Cards lift dramatically on hover with glow */
+.profile-image {
+  width: 180px !important;
+  height: 220px !important;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin: 1rem auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.about-image {
+  max-width: 400px;
+  border-radius: 8px;
+  margin: 1.5rem auto;
+  display: block;
+}
+
+.contact-card {
+  background: var(--md-primary-fg-color--light, #e8f4f8);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+/* ============================================
+   TOOL ICONS IN SKILLS LIST
+   ============================================ */
+
+.tool-list { 
+  list-style: none; 
+  padding: 0; 
+  margin: 0.75rem 0 0 0; 
+}
+
+.tool-list li { 
+  display: flex; 
+  align-items: center; 
+  margin-bottom: 0.6rem; 
+  font-size: 0.95rem;
+}
+
+.tool-list img { 
+  width: 22px; 
+  height: 22px; 
+  margin-right: 12px; 
+  flex-shrink: 0;
+}
+
+/* ============================================
+   BOLD HOVER INTERACTIONS
+   ============================================ */
+
 .md-typeset .grid.cards > ul > li,
 .md-typeset .grid.cards > * {
   transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
               box-shadow 0.35s ease, 
               border-color 0.3s ease !important;
-  cursor: default;
 }
 
 .md-typeset .grid.cards > ul > li:hover,
@@ -491,7 +107,6 @@ hr {
   border-color: var(--md-primary-fg-color) !important;
 }
 
-/* Images zoom noticeably on hover */
 .md-typeset .grid.cards img {
   transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
   border-radius: 8px;
@@ -502,7 +117,6 @@ hr {
   transform: scale(1.08) !important;
 }
 
-/* Buttons with glow effect on hover */
 .md-typeset .md-button {
   transition: all 0.3s ease !important;
   position: relative;
@@ -520,10 +134,8 @@ hr {
               0 0 40px rgba(76, 175, 80, 0.3);
 }
 
-/* Profile photo with bold glow on hover */
 .profile-image {
   transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease !important;
-  cursor: default;
 }
 
 .profile-image:hover {
@@ -533,7 +145,6 @@ hr {
   filter: brightness(1.05);
 }
 
-/* About/field photo also responds */
 .about-image {
   transition: transform 0.4s ease, box-shadow 0.4s ease !important;
 }
@@ -543,7 +154,6 @@ hr {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
 }
 
-/* Links: bold sliding underline with color shift */
 .md-typeset a:not(.md-button):not(.md-nav__link):not(.md-header__button) {
   position: relative;
   transition: color 0.25s ease;
@@ -565,18 +175,8 @@ hr {
   width: 100%;
 }
 
-/* Certificate images: dramatic hover */
-.md-typeset .grid.cards img[alt*="ert"]:hover,
-.md-typeset .grid.cards img[alt*="ant"]:hover,
-.md-typeset .grid.cards img[alt*="rad"]:hover {
-  box-shadow: 0 15px 35px rgba(76, 175, 80, 0.35);
-  transform: scale(1.12) rotate(-1deg) !important;
-}
-
-/* Section headings get a subtle accent on hover */
 .md-typeset h2, .md-typeset h3 {
   transition: color 0.3s ease, transform 0.3s ease;
-  cursor: default;
 }
 
 .md-typeset h2:hover {
@@ -584,7 +184,6 @@ hr {
   transform: translateX(8px);
 }
 
-/* Navigation items pulse on hover */
 .md-tabs__link, .md-nav__link {
   transition: color 0.25s ease, transform 0.25s ease !important;
 }
@@ -598,20 +197,6 @@ hr {
    SCROLL FADE-IN ANIMATIONS
    ============================================ */
 
-.fade-in-section {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-              transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  will-change: opacity, transform;
-}
-
-.fade-in-section.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Auto-apply fade-in to all h2 and content sections */
 .md-typeset h2,
 .md-typeset .grid.cards {
   opacity: 0;
@@ -626,36 +211,6 @@ hr {
   transform: translateY(0);
 }
 
-/* ============================================
-   TYPEWRITER HERO
-   ============================================ */
-
-.typewriter-hero {
-  display: inline-block;
-  position: relative;
-}
-
-.typewriter-cursor {
-  display: inline-block;
-  width: 3px;
-  background: var(--md-primary-fg-color);
-  animation: blink 1s step-end infinite;
-  margin-left: 4px;
-  vertical-align: middle;
-  height: 1em;
-}
-
-@keyframes blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0; }
-}
-
-/* Hide cursor once typing is done */
-.typewriter-done .typewriter-cursor {
-  display: none;
-}
-
-/* Reduce motion for users who prefer it */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
@@ -664,243 +219,51 @@ hr {
 }
 
 /* ============================================
-   BOLD INTERACTIVE STYLE
+   HERO TITLE (Space Grotesk, white, glowing)
    ============================================ */
 
-/* Cards lift dramatically on hover with glow */
-.md-typeset .grid.cards > ul > li,
-.md-typeset .grid.cards > * {
-  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
-              box-shadow 0.35s ease, 
-              border-color 0.3s ease !important;
-  cursor: default;
-}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700;800&family=Inter:wght@500;600;700&display=swap');
 
-.md-typeset .grid.cards > ul > li:hover,
-.md-typeset .grid.cards > *:hover {
-  transform: translateY(-12px) scale(1.02) !important;
-  box-shadow: 0 20px 40px rgba(76, 175, 80, 0.25), 
-              0 0 0 2px var(--md-primary-fg-color) !important;
-  border-color: var(--md-primary-fg-color) !important;
-}
-
-/* Images zoom noticeably on hover */
-.md-typeset .grid.cards img {
-  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
-  border-radius: 8px;
-}
-
-.md-typeset .grid.cards > ul > li:hover img,
-.md-typeset .grid.cards > *:hover img {
-  transform: scale(1.08) !important;
-}
-
-/* Buttons with glow effect on hover */
-.md-typeset .md-button {
-  transition: all 0.3s ease !important;
-  position: relative;
-  overflow: hidden;
-}
-
-.md-typeset .md-button:hover {
-  transform: translateY(-4px) scale(1.05);
-  box-shadow: 0 8px 20px rgba(76, 175, 80, 0.4),
-              0 0 30px rgba(76, 175, 80, 0.2);
-}
-
-.md-typeset .md-button--primary:hover {
-  box-shadow: 0 8px 25px rgba(76, 175, 80, 0.6),
-              0 0 40px rgba(76, 175, 80, 0.3);
-}
-
-/* Profile photo with bold glow on hover */
-.profile-image {
-  transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease !important;
-  cursor: default;
-}
-
-.profile-image:hover {
-  transform: scale(1.08) rotate(2deg) !important;
-  box-shadow: 0 15px 40px rgba(76, 175, 80, 0.4),
-              0 0 60px rgba(76, 175, 80, 0.25) !important;
-  filter: brightness(1.05);
-}
-
-/* About/field photo also responds */
-.about-image {
-  transition: transform 0.4s ease, box-shadow 0.4s ease !important;
-}
-
-.about-image:hover {
-  transform: scale(1.04);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
-}
-
-/* Links: bold sliding underline with color shift */
-.md-typeset a:not(.md-button):not(.md-nav__link):not(.md-header__button) {
-  position: relative;
-  transition: color 0.25s ease;
-  font-weight: 500;
-}
-
-.md-typeset a:not(.md-button):not(.md-nav__link):not(.md-header__button)::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 3px;
-  bottom: -3px;
-  left: 0;
-  background: linear-gradient(90deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
-  transition: width 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.md-typeset a:not(.md-button):not(.md-nav__link):not(.md-header__button):hover::after {
-  width: 100%;
-}
-
-/* Certificate images: dramatic hover */
-.md-typeset .grid.cards img[alt*="ert"]:hover,
-.md-typeset .grid.cards img[alt*="ant"]:hover,
-.md-typeset .grid.cards img[alt*="rad"]:hover {
-  box-shadow: 0 15px 35px rgba(76, 175, 80, 0.35);
-  transform: scale(1.12) rotate(-1deg) !important;
-}
-
-/* Section headings get a subtle accent on hover */
-.md-typeset h2, .md-typeset h3 {
-  transition: color 0.3s ease, transform 0.3s ease;
-  cursor: default;
-}
-
-.md-typeset h2:hover {
-  color: var(--md-primary-fg-color);
-  transform: translateX(8px);
-}
-
-/* Navigation items pulse on hover */
-.md-tabs__link, .md-nav__link {
-  transition: color 0.25s ease, transform 0.25s ease !important;
-}
-
-.md-tabs__link:hover {
-  transform: translateY(-2px);
-  color: var(--md-accent-fg-color) !important;
-}
-
-/* ============================================
-   SCROLL FADE-IN ANIMATIONS
-   ============================================ */
-
-.fade-in-section {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-              transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  will-change: opacity, transform;
-}
-
-.fade-in-section.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Auto-apply fade-in to all h2 and content sections */
-.md-typeset h2,
-.md-typeset .grid.cards {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-              transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.md-typeset h2.is-visible,
-.md-typeset .grid.cards.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* ============================================
-   TYPEWRITER HERO
-   ============================================ */
-
-.typewriter-hero {
-  display: inline-block;
-  position: relative;
-}
-
-.typewriter-cursor {
-  display: inline-block;
-  width: 3px;
-  background: var(--md-primary-fg-color);
-  animation: blink 1s step-end infinite;
-  margin-left: 4px;
-  vertical-align: middle;
-  height: 1em;
-}
-
-@keyframes blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0; }
-}
-
-/* Hide cursor once typing is done */
-.typewriter-done .typewriter-cursor {
-  display: none;
-}
-
-/* Reduce motion for users who prefer it */
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    animation-duration: 0.01ms !important;
-    transition-duration: 0.01ms !important;
-  }
-}
-/* ============================================
-   CLEAN HERO TITLE (WHITE ON DARK GREEN BAND)
-   ============================================ */
-
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700;800&display=swap');
-
-/* Typewriter title: white, custom font, subtle glow */
 .typewriter-hero {
   font-family: 'Space Grotesk', system-ui, sans-serif !important;
-  font-weight: 700 !important;
-  font-size: 2.4rem !important;
+  font-weight: 800 !important;
+  font-size: 3.2rem !important;
   color: #ffffff !important;
-  letter-spacing: -0.5px;
-  line-height: 1.2;
+  letter-spacing: -1px;
+  line-height: 1.1;
   text-shadow: 
-    0 2px 12px rgba(0, 0, 0, 0.6),
-    0 0 30px rgba(165, 214, 167, 0.4);
+    0 4px 20px rgba(0, 0, 0, 0.7),
+    0 0 40px rgba(165, 214, 167, 0.3);
   display: inline-block;
 }
 
 .typewriter-cursor {
   background: #A5D6A7 !important;
-  box-shadow: 0 0 8px rgba(165, 214, 167, 0.7);
+  box-shadow: 0 0 12px rgba(165, 214, 167, 0.9);
+  height: 1.1em;
 }
 
 @media (max-width: 768px) {
   .typewriter-hero {
-    font-size: 1.6rem !important;
+    font-size: 2.1rem !important;
   }
 }
 
 /* ============================================
-   HOME PAGE HERO BAND (CLEAN)
+   HOME HERO BAND (satellite background)
    ============================================ */
 
 body.hero-home-active .md-content__inner > h1:first-of-type {
   position: relative;
-  padding: 4rem 2rem 3.5rem 2rem !important;
-  margin: -1.5rem 0 2.5rem 0 !important;
+  padding: 4.5rem 2.5rem 4rem 2.5rem !important;
+  margin: -1.5rem 0 2rem 0 !important;
   background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&q=85');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 12px;
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2);
 }
 
 body.hero-home-active .md-content__inner > h1:first-of-type::before {
@@ -908,8 +271,8 @@ body.hero-home-active .md-content__inner > h1:first-of-type::before {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   background: linear-gradient(135deg, 
-    rgba(0, 30, 15, 0.78) 0%, 
-    rgba(20, 60, 35, 0.7) 100%);
+    rgba(0, 25, 12, 0.82) 0%, 
+    rgba(15, 50, 28, 0.72) 100%);
   z-index: 1;
 }
 
@@ -918,128 +281,47 @@ body.hero-home-active .md-content__inner > h1:first-of-type > * {
   z-index: 2;
 }
 
-/* Style the subtitle paragraph that follows the hero */
-body.hero-home-active .md-content__inner > h1:first-of-type + p {
-  font-size: 1.15rem;
-  color: #4A5C50;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  margin-top: -1.5rem;
-  margin-bottom: 1.5rem;
-}
-/* Make the typewriter cursor green to match */
-.typewriter-cursor {
-  background: #2E7D32 !important;
-  box-shadow: 0 0 10px rgba(76, 175, 80, 0.8);
+/* ============================================
+   ROLE BADGE PILLS (subtitle redesign)
+   ============================================ */
+
+.role-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1rem 0 2rem 0;
+  align-items: center;
 }
 
-/* Responsive sizing */
+.role-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: linear-gradient(135deg, #2E7D32 0%, #43A047 100%);
+  color: white !important;
+  padding: 0.45rem 1rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: 'Inter', system-ui, sans-serif;
+  letter-spacing: 0.2px;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.25);
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.role-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(76, 175, 80, 0.4);
+}
+
+.role-badge-icon {
+  font-size: 1rem;
+}
+
 @media (max-width: 768px) {
-  .typewriter-hero {
-    font-size: 1.8rem !important;
+  .role-badge {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.85rem;
   }
-}
-/* ============================================
-   PAGE HERO BACKGROUNDS
-   ============================================ */
-
-/* Common hero band styling */
-body[data-md-color-scheme] .md-content article.md-content__inner > h1:first-of-type {
-  position: relative;
-  padding: 4rem 2rem 3rem 2rem !important;
-  margin: -1.5rem -1.5rem 2rem -1.5rem !important;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  border-radius: 0 0 16px 16px;
-  overflow: hidden;
-}
-
-/* Dark gradient overlay for text readability on every hero */
-body[data-md-color-scheme] .md-content article.md-content__inner > h1:first-of-type::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: linear-gradient(135deg, 
-    rgba(0, 40, 20, 0.75) 0%, 
-    rgba(0, 60, 30, 0.65) 50%, 
-    rgba(0, 80, 40, 0.7) 100%);
-  z-index: 1;
-}
-
-body[data-md-color-scheme] .md-content article.md-content__inner > h1:first-of-type > * {
-  position: relative;
-  z-index: 2;
-}
-
-/* PER-PAGE BACKGROUND IMAGES (apply by URL match) */
-
-/* Home page: satellite imagery aesthetic */
-body[data-md-color-scheme] .md-content article.md-content__inner > h1:first-of-type {
-  background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&q=80');
-}
-
-/* Override per page using body attributes */
-.md-typeset h1 {
-  color: white !important;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-}
-/* ============================================
-   PER-PAGE HERO BACKGROUND BANDS
-   ============================================ */
-
-/* Common styling for all per-page hero bands */
-.md-typeset h1.hero-projects,
-.md-typeset h1.hero-skills,
-.md-typeset h1.hero-experience,
-.md-typeset h1.hero-credentials,
-.md-typeset h1.hero-volunteer {
-  position: relative;
-  padding: 4rem 2rem 3rem 2rem !important;
-  margin: -1.5rem -1.5rem 2.5rem -1.5rem !important;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  border-radius: 0 0 20px 20px;
-  overflow: hidden;
-  color: white !important;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-}
-
-/* Dark green gradient overlay for readability on all per-page heroes */
-.md-typeset h1.hero-projects::before,
-.md-typeset h1.hero-skills::before,
-.md-typeset h1.hero-experience::before,
-.md-typeset h1.hero-credentials::before,
-.md-typeset h1.hero-volunteer::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: linear-gradient(135deg, 
-    rgba(0, 30, 15, 0.78) 0%, 
-    rgba(0, 60, 30, 0.68) 50%, 
-    rgba(0, 80, 40, 0.65) 100%);
-  z-index: 1;
-}
-
-/* Per-page background images */
-.md-typeset h1.hero-projects {
-  background-image: url('https://images.unsplash.com/photo-1569163139394-de4798aa62b6?w=1600&q=85') !important;
-}
-
-.md-typeset h1.hero-skills {
-  background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=85') !important;
-}
-
-.md-typeset h1.hero-experience {
-  background-image: url('https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&q=85') !important;
-}
-
-.md-typeset h1.hero-credentials {
-  background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=85') !important;
-}
-
-.md-typeset h1.hero-volunteer {
-  background-image: url('https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=1600&q=85') !important;
 }
