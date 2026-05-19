@@ -222,7 +222,7 @@
    HERO TITLE (Space Grotesk, white, glowing)
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700;800&family=Inter:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
 
 .typewriter-hero {
   font-family: 'Space Grotesk', system-ui, sans-serif !important;
@@ -282,46 +282,78 @@ body.hero-home-active .md-content__inner > h1:first-of-type > * {
 }
 
 /* ============================================
-   ROLE BADGE PILLS (subtitle redesign)
+   ROLE TAGLINE WITH CLEAR HIERARCHY
+   Title leads, focus area follows, location closes
    ============================================ */
 
-.role-badges {
+.role-tagline {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6rem;
-  margin: 1rem 0 2rem 0;
-  align-items: center;
+  align-items: baseline;
+  gap: 0.75rem 1.25rem;
+  margin: 1.25rem 0 2rem 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.3;
 }
 
-.role-badge {
+/* The primary title: largest, brightest, boldest */
+.role-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #66BB6A;
+  letter-spacing: 0.3px;
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  background: linear-gradient(135deg, #2E7D32 0%, #43A047 100%);
-  color: white !important;
-  padding: 0.45rem 1rem;
-  border-radius: 50px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  font-family: 'Inter', system-ui, sans-serif;
+  gap: 0.5rem;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.role-title::before {
+  content: "🛰️";
+  font-size: 1.4rem;
+}
+
+/* The focus area: medium weight, white, with a vertical bar separator */
+.role-focus {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.92);
+  padding-left: 1.25rem;
+  border-left: 3px solid #66BB6A;
   letter-spacing: 0.2px;
-  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.25);
-  transition: all 0.3s ease;
-  white-space: nowrap;
 }
 
-.role-badge:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 14px rgba(76, 175, 80, 0.4);
+/* The location: small, muted, with a pin */
+.role-location {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  letter-spacing: 0.3px;
 }
 
-.role-badge-icon {
-  font-size: 1rem;
+.role-location::before {
+  content: "📍";
+  font-size: 0.95rem;
 }
 
 @media (max-width: 768px) {
-  .role-badge {
-    font-size: 0.8rem;
-    padding: 0.4rem 0.85rem;
+  .role-tagline {
+    gap: 0.6rem;
+  }
+  .role-title {
+    font-size: 1.3rem;
+  }
+  .role-title::before {
+    font-size: 1.15rem;
+  }
+  .role-focus {
+    font-size: 0.95rem;
+    padding-left: 1rem;
+  }
+  .role-location {
+    font-size: 0.85rem;
   }
 }
