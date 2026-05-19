@@ -8,7 +8,7 @@
 
 ![Professional headshot of Jecinta Wanjiru Kinyanjui](assets/images/jecinta_headshot.jpeg){ .profile-image }
 
-I apply geospatial technology, machine learning, and data analytics to solve real-world problems across Kenya and East Africa, from predicting climate disasters like drought and flooding to mapping femicide hotspots that can drive policy intervention and save lives.
+I apply geospatial technology, machine learning, and data analytics to solve real-world problems across Kenya and East Africa, from predicting climate disasters like drought and flooding to mapping femicide hotspots that can drive policy intervention and save lives. My work spans landslide risk mapping in Elgeyo Marakwet, flood hotspot analysis in Nairobi, and national climate risk dashboards covering all 47 Kenyan counties. I combine a strong academic foundation in Surveying Technology with hands-on experience in remote sensing, GIS automation, and AI-augmented workflows.
 
 ![Jecinta conducting RTK fieldwork](assets/images/jecinta_survey_photo.jpeg){ .about-image }
 
