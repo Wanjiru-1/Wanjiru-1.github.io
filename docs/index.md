@@ -1,9 +1,9 @@
 # <span class="typewriter-hero">Mapping a more equitable Africa through data</span>
 
-<div class="role-badges">
-  <span class="role-badge"><span class="role-badge-icon">📍</span> Nairobi, Kenya</span>
-  <span class="role-badge"><span class="role-badge-icon">🛰️</span> Geospatial Data Scientist</span>
-  <span class="role-badge"><span class="role-badge-icon">🌍</span> Climate & Social Impact Analytics</span>
+<div class="role-tagline">
+  <span class="role-title">Geospatial Data Scientist</span>
+  <span class="role-focus">Climate & Social Impact Analytics</span>
+  <span class="role-location">Nairobi, Kenya</span>
 </div>
 
 ![Professional headshot of Jecinta Wanjiru Kinyanjui](assets/images/jecinta_headshot.jpeg){ .profile-image }
