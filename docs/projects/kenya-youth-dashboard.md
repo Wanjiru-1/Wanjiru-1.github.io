@@ -1,64 +1,82 @@
 ---
-title: Kenya Youth Opportunity Dashboard
-description: Interactive choropleth dashboard mapping youth unemployment, education access, and internet connectivity across all 47 Kenyan counties
+title: Kenya Youth Dashboard
+description: Interactive dashboard analysing youth employment, education, and demographic indicators across Kenya's 47 counties
 ---
 
-# Kenya Youth Opportunity Dashboard
+# Kenya Youth Dashboard
 
-`Leaflet.js` `GIS` `Data Visualisation` `Policy`
+*2025 | Python, Power BI | Youth employment and demographic analysis*
 
-![Kenya Youth Opportunity Dashboard](../assets/images/kenya_youth_dashboard.png)
+**Tags:** `Python` `Power BI` `KNBS Data` `Youth Employment` `Data Analytics` `Data Visualisation` `ETL` `Policy Analytics` `47 Counties`
 
----
-
-## Overview
-
-An interactive web dashboard that maps **youth unemployment**, **education access**, and **internet connectivity** across all 47 Kenyan counties — giving policymakers, researchers, and civil society a single spatial lens on youth opportunity gaps in Kenya.
-
-The dashboard ranks counties into two actionable groups: **Top 10 counties with highest unemployment** (priority for investment) and **Bottom 10 counties with lowest unemployment** (model cases to learn from).
-
-**Live Dashboard:** [wanjiru-1.github.io/-kenya-youth-dashboard/](https://wanjiru-1.github.io/-kenya-youth-dashboard/)
-
----
+![Kenya Youth Dashboard](../assets/images/kenya_youth_dashboard.png)
 
 ## The Problem
 
-Kenya's youth unemployment crisis is spatially uneven — yet national policy often treats it as a uniform challenge. County-level data existed in siloed reports and spreadsheets, making it hard for decision-makers to see where the need is greatest or what success looks like.
+Kenya has one of the youngest populations in the world. Over 75% of Kenyans are under the age of 35, and youth unemployment remains one of the most pressing economic challenges facing the country. The Kenya National Bureau of Statistics (KNBS) publishes quarterly labour force data, but this information is rarely surfaced in an accessible format that policymakers, NGOs, and youth-focused organisations can use to identify which counties, sectors, and demographic groups need targeted intervention.
+
+Mastercard Foundation's flagship initiative, Young Africa Works, commits to creating 30 million jobs for young people across Africa by 2030. Achieving this requires data tools that disaggregate the youth employment story by county, gender, education level, and sector.
+
+## The Objective
+
+Build an end-to-end data pipeline and interactive dashboard that:
+
+* Aggregates KNBS labour force survey data and ILOSTAT figures into a clean analytical dataset
+* Visualises youth unemployment by county, gender, sector, and education level across Kenya's 47 counties
+* Surfaces the counties and demographic groups with the highest unemployment burden
+* Supports decision-making for policymakers, NGOs, donor agencies, and youth-focused programmes
+
+## Methodology
+
+The project uses an end-to-end ETL (Extract, Transform, Load) workflow:
+
+1. **Extract**: Pull data from the KNBS Quarterly Labour Force Reports and ILOSTAT public datasets
+2. **Transform**: Clean and harmonise variables in Python (pandas), reconcile county naming conventions, handle missing values, and engineer aggregate indicators (youth unemployment rate, education-disaggregated employment, sector breakdown)
+3. **Load**: Push the cleaned analytical tables into Power BI for interactive visualisation
+
+The dashboard surfaces four primary views:
+
+* **County-level choropleth** showing youth unemployment rates across all 47 counties
+* **Demographic breakdowns** by gender, age band (15 to 24, 25 to 34), and education level
+* **Sectoral employment** showing where employed youth are concentrated (agriculture, services, manufacturing, informal sector)
+* **Time-series trends** tracking changes in key metrics over recent quarters
+
+## Data Sources and Attribution
+
+| Source | Use |
+|---|---|
+| Kenya National Bureau of Statistics (KNBS) | Quarterly Labour Force Reports |
+| ILOSTAT | International Labour Organisation statistical database |
+| KNBS Census 2019 | Baseline demographic structure |
+| Council of Governors / KNBS | County-level boundaries and metadata |
+
+All data sources are publicly accessible from KNBS (knbs.go.ke) and ILOSTAT (ilostat.ilo.org).
+
+## Tech Stack
+
+* **Python** with `pandas`, `numpy`, `requests` for ETL pipeline
+* **Power BI** for interactive dashboard and visualisations
+* **Excel** for intermediate data validation
+* **GitHub** for version control and reproducibility
+
+## Outcomes and Impact
+
+The dashboard provides:
+
+* A reproducible analytical pipeline that updates with each new KNBS quarterly release
+* County-level granularity that supports devolved-government planning
+* Disaggregated demographic insight that highlights gender gaps and educational divides in the youth employment landscape
+* A foundation for follow-up policy analysis aligned with Mastercard Foundation's Young Africa Works initiative
+
+## Code and Live Dashboard
+
+* **Live dashboard:** [View on Power BI](#)
+* **GitHub repository:** [View source code](#)
+
+## Reflections
+
+This project deepened my data engineering skills outside of pure geospatial work, and showed me how spatial thinking (county-by-county comparison) can strengthen non-spatial analytical work. Future versions would add a Prophet or ARIMA forecasting layer projecting unemployment trends, and integrate Mastercard Foundation programme location data to identify gaps between intervention reach and need.
 
 ---
 
-## What I Built
-
-A fully interactive **Leaflet.js choropleth map** where each county is shaded by education access percentage and clicking a county opens a popup with three indicators:
-
-- **Youth Unemployment** (e.g. Embu County: 15.2%)
-- **Education Access** (e.g. Embu: 70%)
-- **Internet Access** (e.g. Embu: 53%)
-
-Below the map, ranked tables surface the 10 counties most in need of investment and the 10 performing best — turning a map into an actionable policy brief.
-
----
-
-## Tools & Methods
-
-| Tool | Purpose |
-|------|---------|
-| **Leaflet.js** | Interactive choropleth map |
-| **JavaScript** | Dashboard logic and popups |
-| **GeoJSON** | County boundary data |
-| **National datasets** | Youth, education & ICT indicators |
-| **GitHub Pages** | Deployment |
-
----
-
-## Key Insights
-
-- Education access ranges widely across counties, from under 50% to over 80%
-- Internet access is often the binding constraint in counties with good education coverage
-- The relationship between education access and youth employment is non-linear — internet infrastructure matters as much
-
----
-
-## Year
-
-2024 – 2025
+[See more projects](../projects/) | [Back to home](../)
