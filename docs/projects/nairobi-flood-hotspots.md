@@ -1,89 +1,87 @@
 ---
-title: Elgeyo Marakwet Landslide Dashboard
-description: Interactive Google Earth Engine dashboard for landslide risk classification across Elgeyo Marakwet County, Kenya
+title: Nairobi Flood Hotspots
+description: Interactive R Leaflet map identifying flood-prone zones across Nairobi and visualising emergency resources
 ---
 
-# Elgeyo Marakwet Landslide Dashboard
+# Nairobi Flood Hotspots
 
-*November 2025 | Google Earth Engine | Sentinel-1, Sentinel-2, CHIRPS, SRTM*
+*April 2024 to March 2026 events | R, Leaflet | Public awareness mapping*
 
-**Tags:** `Google Earth Engine` `JavaScript` `Remote Sensing` `Sentinel-2` `Sentinel-1 SAR` `CHIRPS` `SRTM` `Disaster Risk Mapping` `Cartography` `Web GIS`
+**Tags:** `R` `Leaflet.js` `Cartography` `Disaster Risk Mapping` `Web Mapping` `Urban Resilience` `Public Awareness` `Open Data`
 
-![Elgeyo Marakwet Landslide Dashboard](../assets/images/elgeyo_landslide.jpeg)
+![Nairobi Flood Hotspots](../assets/images/nairobi_flood.jpeg)
 
 ## The Problem
 
-On 31 October to 3 November 2025, heavy overnight rainfall saturated the slopes of the Kerio Escarpment in Elgeyo Marakwet County, triggering shallow landslides that channelised into multiple debris flows. The Chesongoch, Murkutwo, and Kipkenda settlements were devastated, with at least 26 deaths confirmed, 25 people reported missing, and over 1,000 homes destroyed.
+Nairobi's recurrent flooding disproportionately affects residents in informal settlements and low-lying neighbourhoods. The April 2024 long-rains floods displaced thousands of households across Mathare, Mukuru, Kibera, and Korogocho, with continued impacts through the March 2026 rainy season. The May 2024 Uthiru building collapse, linked to soil saturation, claimed at least 9 lives.
 
-Elgeyo Marakwet has experienced repeated landslide events since 2010, including the Kaben landslide of 2010, the 2012 Chesongoch event, the 2019 Muino-Nyarkulian-Parua disaster (39 deaths), and the 2020 Liter/Chesegon event (18 deaths). Despite this recurring pattern, county disaster officers have lacked a quick-access tool to identify which slopes are most vulnerable before the next rainfall event.
+While disaster management agencies hold detailed records, residents and decision-makers lack a clear, public-facing tool that shows which neighbourhoods are most at risk, why they flood, and where to find emergency resources.
 
 ## The Objective
 
-Build an interactive web-based dashboard that classifies landslide susceptibility across the county into clear risk classes, displays before-and-after satellite evidence of the November 2025 event, and serves as a planning tool for disaster officers, land use planners, and at-risk communities.
+Build a public-facing interactive map that:
+
+* Identifies and ranks 20 flood-prone zones across Nairobi by severity
+* Documents the root cause of flooding in each zone (river basin, drainage failure, settlement on riparian land)
+* Surfaces emergency resources including hospitals, the Red Cross, and ambulance services
+* Raises awareness and supports disaster preparedness conversations at community level
 
 ## Methodology
 
-The dashboard combines six environmental factors into a weighted susceptibility index:
+The map integrates four data layers in a Leaflet web map:
 
-```
-Risk = 0.35 × slope
-     + 0.20 × rainfall (7-day antecedent)
-     + 0.15 × vegetation loss (NDVI change)
-     + 0.15 × land cover vulnerability
-     + 0.10 × slope curvature
-     + 0.05 × soil moisture
-```
+1. **20 flood hotspot points** with severity scores (1 to 5), households affected estimates, primary cause descriptions, and associated river basin
+2. **Five major river corridors** (Nairobi, Ngong, Mathare, Gatharaini, Ruiru) marking the principal flooding paths
+3. **Seven emergency resource locations** (Kenya Red Cross HQ, Nairobi County Disaster Management Office, four hospitals, St John Ambulance) with toll-free contact numbers
+4. **Administrative boundaries** from GADM at sub-county level
 
-Each input is normalised to a 0-to-1 range and combined into a final score, with higher scores indicating higher physical susceptibility to slope failure during heavy rain.
+Severity is colour-coded yellow to dark red, with click-to-reveal pop-ups for each location. The map is fully interactive with zoom, pan, layer toggles, and a legend explaining symbology.
 
-The dashboard provides four interactive layers:
+## Featured Hotspots
 
-* **Before/after Sentinel-2 imagery** of the November 2025 event for visual change detection
-* **Sentinel-1 SAR backscatter difference** for cloud-penetrating verification of terrain disturbance
-* **CHIRPS rainfall analysis** showing the 7-day rainfall total that triggered the event
-* **Susceptibility classification** across the entire county, with risk classes from low (green) to extreme (red)
+| Severity | Areas |
+|---|---|
+| 5 (Extreme) | Mathare, Mukuru kwa Njenga, Mukuru kwa Reuben, Kibera, Korogocho, Embakasi (Pipeline) |
+| 4 (High) | Kawangware, Huruma, Eastleigh, South C, Industrial Area, Uthiru, Dandora, Kayole/Soweto, Lucky Summer |
+| 3 (Moderate) | Githurai, Kasarani, Kiamaiko, Ruai, Syokimau |
+
+The principal flooding drivers are the Nairobi River, Ngong River, and Mathare River corridors, compounded by encroachment on riparian land, blocked drainage, and dense informal housing.
 
 ## Data Sources and Attribution
 
-| Dataset | Provider | Purpose |
-|---|---|---|
-| Sentinel-2 SR Harmonized | ESA / Copernicus | Optical imagery, NDVI, change detection |
-| Sentinel-1 GRD IW | ESA / Copernicus | SAR backscatter for cloud-penetrating analysis |
-| CHIRPS Daily | UCSB Climate Hazards Center | Rainfall (5 km, 1981 to present) |
-| SRTM 30 m | NASA / USGS | Elevation, slope, curvature derivation |
-| ESA WorldCover 10 m | ESA / Copernicus | Land cover classification |
-| SMAP L4 | NASA | Soil moisture at 9 km |
-| FAO GAUL 2015 | FAO | Administrative boundaries (Kenya counties) |
-| Event impact statistics | Kenya Red Cross, OCHA, CNN, Daily Nation | Casualty and displacement figures |
-
-All datasets are openly accessible through Google Earth Engine's public catalog.
+| Source | Use |
+|---|---|
+| UN OCHA Kenya | Affected-population estimates |
+| Kenya Red Cross Society | Emergency contacts and event documentation |
+| ReliefWeb | Situation reports |
+| ARIN (African Research and Impact Network) | Research briefs on Nairobi flooding |
+| Daily Nation, CNN, Citizen TV | Event reporting |
+| GADM (Global Administrative Areas) | Nairobi sub-county boundaries |
 
 ## Tech Stack
 
-* **Google Earth Engine** (JavaScript Code Editor) for data processing and visualisation
-* **GEE Apps** for public deployment
-* **Sentinel-2** and **Sentinel-1** for satellite imagery
-* **GEE UI library** for interactive panel and legend design
+* **R** with `leaflet`, `leaflet.extras`, `dplyr`, `htmltools`, `htmlwidgets`, `sf`
+* **GADM** via the `geodata` package for boundary data
+* **htmlwidgets** for export as a standalone HTML page
+* **RPubs** or **GitHub Pages** for deployment
 
 ## Outcomes and Impact
 
-The dashboard provides:
+The map provides:
 
-* A county-scale susceptibility map showing the slopes most likely to fail in future rainfall events
-* Visual evidence of the November 2025 disturbance via NDVI change detection
-* Cross-validation between optical (Sentinel-2) and radar (Sentinel-1) imagery
-* Rainfall trigger analysis showing the link between antecedent rainfall and slope failure
+* A community-accessible view of where flooding has historically caused most harm in Nairobi
+* A starting point for residents to identify nearby emergency resources
+* A planning aid for urban resilience interventions targeting drainage, riparian land encroachment, and informal settlement upgrading
+* A reproducible R workflow that can be adapted to other Kenyan cities or extended with new flood events
 
-This tool is designed to support disaster management officers in Elgeyo Marakwet County, NGOs working on climate resilience, and communities living on slope-prone terrain.
+## Code and Live Map
 
-## Code and Live Dashboard
-
-* **Live dashboard:** [View on GEE Apps](#)
+* **Live interactive map:** [View on RPubs](#)
 * **GitHub repository:** [View source code](#)
 
 ## Reflections
 
-This project taught me how to combine multiple Earth observation datasets into a single decision-support tool. Future work would extend the susceptibility model with machine learning calibration against historical landslide inventories, and add population exposure layers using WorldPop for risk-prioritised intervention planning.
+This project deepened my understanding of how public-facing geospatial communication can sit alongside formal disaster response. It also highlighted limits: the hotspot data is based on reported events, so areas with under-reporting may be under-represented. Future versions would integrate Sentinel-1 SAR flood-extent detection (cloud-penetrating radar) for an evidence-based approach to flood frequency rather than reported impact alone.
 
 ---
 
