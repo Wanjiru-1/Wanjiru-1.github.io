@@ -1,6 +1,13 @@
-# Projects { .hero-projects }
+---
+title: Projects
+description: Geospatial and data science projects by Jecinta Wanjiru Kinyanjui
+---
 
-Real-world geospatial work addressing climate risk, food security, and disaster preparedness across Kenya. Each project leads with the problem it addresses, the population it serves, and the outcomes it enables.
+# Projects
+
+Real-world geospatial and data analytics work addressing climate risk, disaster preparedness, and youth opportunity across Kenya. Each project leads with the problem, the methodology, the data sources, and the outcomes.
+
+## Featured Projects
 
 <div class="grid cards" markdown>
 
@@ -8,37 +15,45 @@ Real-world geospatial work addressing climate risk, food security, and disaster 
 
     **Elgeyo Marakwet Landslide Dashboard**
 
-    Interactive risk classification across an entire county, built to give disaster officers a heads-up before the next landslide event.
+    *Google Earth Engine + R | November 2025*
 
-    *Stack: Google Earth Engine, JavaScript, Sentinel-2, SRTM*
+    Six-factor weighted susceptibility model classifying landslide risk across Elgeyo Marakwet County, with before-and-after satellite imagery of the November 2025 Chesongoch event.
 
-    [Read more →](elgeyo-landslide.md)
+    `GEE` `R` `Sentinel-1` `Sentinel-2` `CHIRPS` `SRTM`
+
+    [Read full case study →](elgeyo-landslide.md)
 
 -   ![Nairobi Flood Hotspots](../assets/images/nairobi_flood.jpeg)
 
-    **Nairobi Flood Hotspots**
+    **Nairobi Flood Hotspots Map**
 
-    Citywide mapping of flood-prone zones, identifying priority areas for drainage, evacuation planning, and infrastructure investment in informal settlements.
+    *R + Leaflet | 2024 to 2026 events*
 
-    *Stack: Python, QGIS, Sentinel-1, Google Earth Engine*
+    Public-facing interactive Leaflet map identifying 20 flood-prone neighbourhoods across Nairobi, with severity scores, emergency resources, and river-basin context.
 
-    [Read more →](nairobi-flood-hotspots.md)
+    `R` `Leaflet.js` `GADM` `Cartography` `Urban Resilience`
 
--   ![Kenya Climate Risk Dashboard](../assets/images/kenya_youth_dashboard.png)
+    [Read full case study →](nairobi-flood-hotspots.md)
 
-    **Kenya Climate Risk Dashboard 2025**
+-   ![Kenya Youth Opportunity Dashboard](../assets/images/kenya_youth_dashboard.png)
 
-    National-scale web maps showing drought and flood-prone zones across all 47 counties, supporting early warning systems and food security planning.
+    **Kenya Youth Opportunity Dashboard**
 
-    *Stack: Google Earth Engine, Python, Leaflet*
+    *HTML5 + Leaflet + Plotly | 2026*
 
-    [Read more →](kenya-youth-dashboard.md)
+    Interactive choropleth dashboard analysing youth employment, education access, and digital connectivity across all 47 Kenyan counties.
+
+    `JavaScript` `Leaflet.js` `Plotly.js` `Data Storytelling` `Choropleth`
+
+    [Read full case study →](kenya-youth-dashboard.md)
 
 </div>
 
-## Additional work
+## Additional Work
 
-Two further projects from my work at DRSRS:
+From my professional attachments at DRSRS:
 
-* **Coffee Farm Geodatabase**: end-to-end digitisation and validation of 300+ smallholder coffee farm parcels, improving data accuracy for farmer land management records.
-* **Cartographic Automation Pipeline**: Python and Google Earth Engine scripts to automate repetitive map production tasks, cutting production time across the team's workflow.
+* **Coffee Farm Geodatabase** (2025): end-to-end digitisation and validation of 300+ smallholder coffee farm parcels in ArcGIS Pro, improving data accuracy for farmer land management records
+* **Cartographic Automation Pipeline** (2025): Python and Google Earth Engine scripts automating repetitive map production tasks at DRSRS
+
+These attachment projects are summarised on the [Experience page](../experience.md).
