@@ -9,7 +9,7 @@ I'm currently working on writeups for:
 * **Mapping Landslide Risk in Elgeyo Marakwet with Google Earth Engine**: a behind-the-scenes look at the dashboard methodology, data sources, and what I learned about communicating risk to non-technical audiences.
 * **Why Nairobi Floods Where It Does**: combining Sentinel-1 imagery with elevation data to surface flood-prone informal settlements.
 
-Check back soon, or follow me on [LinkedIn](https://www.linkedin.com/in/jecinta-wanjiru-) or [Medium](#) to be notified when these go live.
+Check back soon, or follow me on [LinkedIn](https://www.linkedin.com/in/jecinta-wanjiru-) or [Medium](https://medium.com/) to be notified when these go live.
 
 ## Conferences and events
 
