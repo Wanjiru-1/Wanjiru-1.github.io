@@ -78,8 +78,12 @@ The work supports disaster management officers, NGOs working on climate resilien
 
 ## Code and Live Outputs
 
-[:fontawesome-brands-github: View Code on GitHub](https://github.com/Wanjiru-1/ELGEYO_MARAKWET-LANDSLIDES-DASHBOARD){ .md-button }
-[:material-launch: Open Live Dashboard](https://elegant-shelter-461411-v2.projects.earthengine.app/view/elgeyo-marakwet-landslide-risk-dashboard){ .md-button .md-button--primary }
+## Code and Live Dashboard
+
+[:material-launch: Open Live Dashboard in GEE](https://elegant-shelter-461411-v2.projects.earthengine.app/view/elgeyo-marakwet-landslide-risk-dashboard){ .md-button .md-button--primary }
+[:fontawesome-brands-github: View Source Code](https://github.com/Wanjiru-1/ELGEYO_MARAKWET-LANDSLIDES-DASHBOARD){ .md-button }
+
+> Note: This dashboard is hosted on Google Earth Engine. Due to GEE's embed restrictions, it opens in a new tab. The full interactive experience awaits on the linked page.
 
 **Direct links:**
 
