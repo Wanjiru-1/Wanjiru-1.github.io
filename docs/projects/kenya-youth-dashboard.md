@@ -100,10 +100,21 @@ The dashboard delivers:
 * A demonstration of how multi-indicator development data can be communicated to non-technical decision-makers
 * A foundation for upgrading to real KNBS Labour Force Survey data when published at county granularity
 
-## Code and Live Outputs
+## Interactive Live Dashboard
 
-[:fontawesome-brands-github: View Code on GitHub](https://github.com/Wanjiru-1/kenya-youth-dashboard){ .md-button }
-[:material-launch: Open Live Dashboard](https://wanjiru-1.github.io/kenya-youth-dashboard/){ .md-button .md-button--primary }
+<div class="dashboard-embed">
+<iframe src="https://wanjiru-1.github.io/kenya-youth-dashboard/" 
+        width="100%" 
+        height="800" 
+        frameborder="0" 
+        loading="lazy"
+        title="Kenya Youth Opportunity Dashboard"
+        sandbox="allow-scripts allow-same-origin allow-popups">
+</iframe>
+</div>
+
+[:material-fullscreen: Open in Full Screen](https://wanjiru-1.github.io/kenya-youth-dashboard/){ .md-button .md-button--primary }
+[:fontawesome-brands-github: View Source Code](https://github.com/Wanjiru-1/kenya-youth-dashboard){ .md-button }
 
 **Direct links:**
 
