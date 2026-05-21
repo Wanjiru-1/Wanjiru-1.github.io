@@ -74,13 +74,13 @@ A combination of academic qualifications, professional certifications, and recog
 
     **Machine Learning**
 
-    [Description needed: please tell me what this track covered]
+  Completed an intensive, hands-on program mastering predictive modeling, data preprocessing, and algorithm       implementation.Core Skills: Data manipulation, feature engineering, and statistical analysis using Python, NumPy, and Pandas.Machine Learning: Built and optimized supervised and unsupervised models including regression, classification, and clustering algorithms.Real-World Application: Tackled complex, open-ended datasets to solve business problems, deploying scalable ML solutions using industry-standard workflows and version control
 
 -   ![ALX Professional Foundations](../assets/%20certificates/cert_alx_prof_foundations.png)
 
     **Professional Foundations**
 
-    [Description needed: please tell me what this track covered]
+   Certified in Professional Foundations by ALX. This curriculum combines hands-on team deliverables and self-awareness training to master 8 core meta-skills, including:Communicating for ImpactLeading Self & Leading OthersQuantitative & Critical ReasoningManaging Complex Tasks
 
 </div>
 
@@ -110,13 +110,13 @@ A combination of academic qualifications, professional certifications, and recog
 
     **GIS Advanced**
 
-    [Description needed: what specific skills did this badge cover?]
+    Awarded the Advanced GIS and Remote Sensing Badge by RCMRD, validating high-level proficiency in geospatial technologies and spatial data infrastructure. Expertise includes satellite imagery interpretation, spatial modeling, and advanced map digitization. Proven capability to transform raw spatial data into actionable insights for sustainable development, natural resource management, and regional planning.
 
 -   ![RCMRD GIS Expert](../assets/%20certificates/cert_rcmrd_gis_expert.png)
 
     **GIS Expert**
 
-    [Description needed: what specific skills did this badge cover?]
+  The Skill: Awarded expert-level proficiency in Geographic Information Systems (GIS) and geospatial data analysis.The Application: Validates end-to-end expertise in spatial data collection, database management, and advanced mapping.The Impact: Demonstrates a proven ability to translate complex spatial data into actionable intelligence for sustainable resource management and development
 
 -   ![RCMRD Conservation Mapping Module 2](../assets/%20certificates/cert_rcmrd_conservation_m2.jpg)
 
