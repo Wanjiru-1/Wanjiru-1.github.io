@@ -76,10 +76,22 @@ The map delivers:
 * A planning aid for urban resilience interventions on drainage, riparian land encroachment, and informal settlement upgrading
 * A reproducible R workflow that can be adapted to other Kenyan cities or extended with new events
 
-## Code and Live Outputs
+## Interactive Live Map
 
-[:fontawesome-brands-github: View Code on GitHub](https://github.com/Wanjiru-1/nairobi-flood-map){ .md-button }
-[:material-launch: Open Live Map](https://wanjiru-1.github.io/nairobi-flood-map/){ .md-button .md-button--primary }
+<div class="dashboard-embed">
+<iframe src="https://wanjiru-1.github.io/nairobi-flood-map/" 
+        width="100%" 
+        height="650" 
+        frameborder="0" 
+        loading="lazy"
+        title="Nairobi Flood Hotspots Interactive Map"
+        allow="geolocation"
+        sandbox="allow-scripts allow-same-origin allow-popups">
+</iframe>
+</div>
+
+[:material-fullscreen: Open in Full Screen](https://wanjiru-1.github.io/nairobi-flood-map/){ .md-button .md-button--primary }
+[:fontawesome-brands-github: View Source Code](https://github.com/Wanjiru-1/nairobi-flood-map){ .md-button }
 
 **Direct links:**
 
