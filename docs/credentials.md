@@ -6,7 +6,7 @@ A combination of academic qualifications, professional certifications, and recog
 
 <div class="grid cards" markdown>
 
--   ![TUK Degree Certificate](<../assets/ certificates/cert_tuk_degree.jpg>)
+-   ![TUK Degree Certificate](<assets/ certificates/cert_tuk_degree.jpg>)
     
     **Bachelor of Technology in Surveying Technology**
     
@@ -20,7 +20,7 @@ A combination of academic qualifications, professional certifications, and recog
 
 <div class="grid cards" markdown>
 
--   ![FIG Foundation Young Surveyor Grant 2025](<../assets/ certificates/cert_fig_grant.png>)
+-   ![FIG Foundation Young Surveyor Grant 2025](<assets/ certificates/cert_fig_grant.png>)
     
     **2025 FIG Foundation Young Surveyor Grant**
     
@@ -36,7 +36,7 @@ A combination of academic qualifications, professional certifications, and recog
 
 <div class="grid cards" markdown>
 
--   ![ALX Data Science](<../assets/ certificates/cert_alx_data_science.png>)
+-   ![ALX Data Science](<assets/ certificates/cert_alx_data_science.png>)
     
     **Data Science**
     
@@ -46,31 +46,31 @@ A combination of academic qualifications, professional certifications, and recog
     
     [Verify certificate](https://savanna.alxafrica.com/certificates/Lh7Ze2fcxT)
 
--   ![ALX Python Programming](<../assets/ certificates/cert_alx_python.png>)
+-   ![ALX Python Programming](<assets/ certificates/cert_alx_python.png>)
     
     **Python Programming**
     
     Syntax, object-oriented programming, error handling, and scripting for automation.
 
--   ![ALX Data Analytics](<../assets/ certificates/cert_alx_data_analytics.png>)
+-   ![ALX Data Analytics](<assets/ certificates/cert_alx_data_analytics.png>)
     
     **Data Analytics**
     
     SQL for database querying, Power BI for data visualisation, advanced spreadsheet techniques, and data analysis workflows.
 
--   ![ALX AI Career Essentials](<../assets/ certificates/cert_alx_ai_essentials.png>)
+-   ![ALX AI Career Essentials](<assets/ certificates/cert_alx_ai_essentials.png>)
     
     **AI Career Essentials**
     
     Generative AI tools for content creation, data analysis, workflow automation, and prompt engineering.
 
--   ![ALX Virtual Assistant](<../assets/ certificates/cert_alx_virtual_assistant.png>)
+-   ![ALX Virtual Assistant](<assets/ certificates/cert_alx_virtual_assistant.png>)
     
     **Virtual Assistant**
     
     Calendar management, inbox organisation, data entry, social media management, and AI productivity tools.
 
--   ![ALX Machine Learning](<../assets/ certificates/cert_alx_machine_learning.png>)
+-   ![ALX Machine Learning](<assets/ certificates/cert_alx_machine_learning.png>)
     
     **Machine Learning**
     
@@ -82,7 +82,7 @@ A combination of academic qualifications, professional certifications, and recog
     
     **Real-World Application:** Tackled complex, open-ended datasets to solve business problems, deploying scalable ML solutions using industry-standard workflows and version control.
 
--   ![ALX Professional Foundations](<../assets/ certificates/cert_alx_prof_foundations.png>)
+-   ![ALX Professional Foundations](<assets/ certificates/cert_alx_prof_foundations.png>)
     
     **Professional Foundations**
     
@@ -99,13 +99,13 @@ A combination of academic qualifications, professional certifications, and recog
 
 <div class="grid cards" markdown>
 
--   ![ESRI Going Places with Spatial Analysis](<../assets/ certificates/cert_esri_spatial_analysis.jpg>)
+-   ![ESRI Going Places with Spatial Analysis](<assets/ certificates/cert_esri_spatial_analysis.jpg>)
     
     **Going Places with Spatial Analysis**
     
     Six-week ESRI MOOC introducing spatial data analysis using ArcGIS Online. Covers spatial patterns, descriptive statistics, projection, and hands-on workflows using cloud-based mapping tools.
 
--   ![ESRI Making an Impact with Modern Geo Apps](<../assets/ certificates/cert_esri_geo_apps.png>)
+-   ![ESRI Making an Impact with Modern Geo Apps](<assets/ certificates/cert_esri_geo_apps.png>)
     
     **Making an Impact with Modern Geo Apps**
     
@@ -117,13 +117,13 @@ A combination of academic qualifications, professional certifications, and recog
 
 <div class="grid cards" markdown>
 
--   ![RCMRD GIS Advanced](<../assets/ certificates/cert_rcmrd_gis_advanced.png>)
+-   ![RCMRD GIS Advanced](<assets/ certificates/cert_rcmrd_gis_advanced.png>)
     
     **GIS Advanced**
     
     Awarded the Advanced GIS and Remote Sensing Badge by RCMRD, validating high-level proficiency in geospatial technologies and spatial data infrastructure. Expertise includes satellite imagery interpretation, spatial modeling, and advanced map digitization. Proven capability to transform raw spatial data into actionable insights for sustainable development, natural resource management, and regional planning.
 
--   ![RCMRD GIS Expert](<../assets/ certificates/cert_rcmrd_gis_expert.png>)
+-   ![RCMRD GIS Expert](<assets/ certificates/cert_rcmrd_gis_expert.png>)
     
     **GIS Expert**
     
@@ -133,19 +133,19 @@ A combination of academic qualifications, professional certifications, and recog
     
     **The Impact:** Demonstrates a proven ability to translate complex spatial data into actionable intelligence for sustainable resource management and development.
 
--   ![RCMRD Conservation Mapping Module 2](<../assets/ certificates/cert_rcmrd_conservation_m2.jpg>)
+-   ![RCMRD Conservation Mapping Module 2](<assets/ certificates/cert_rcmrd_conservation_m2.jpg>)
     
     **Applications of GIS in Conservation Mapping, Module 2**
     
     This module provides hands-on expertise in applying geospatial technologies for mapping and managing ecosystems, covering spatial data review, database schema development, and conservation dataset creation. Participants learn to leverage these tools to support data-driven decision-making for biodiversity protection and alignment with global conservation standards.
 
--   ![RCMRD Conservation Mapping Module 3](<../assets/ certificates/cert_rcmrd_conservation_m3.jpg>)
+-   ![RCMRD Conservation Mapping Module 3](<assets/ certificates/cert_rcmrd_conservation_m3.jpg>)
     
     **Applications of GIS in Conservation Mapping, Module 3**
     
     Builds upon ecosystem mapping by introducing advanced spatial analysis and habitat modeling. This module focuses on analyzing land cover changes, assessing environmental threats, and mapping wildlife corridors to provide actionable insights for landscape-level conservation strategies.
 
--   ![RCMRD Conservation Mapping Module 4](<../assets/ certificates/cert_rcmrd_conservation_m4.jpg>)
+-   ![RCMRD Conservation Mapping Module 4](<assets/ certificates/cert_rcmrd_conservation_m4.jpg>)
     
     **Applications of GIS in Conservation Mapping, Module 4**
     
@@ -157,7 +157,7 @@ A combination of academic qualifications, professional certifications, and recog
 
 <div class="grid cards" markdown>
 
--   ![FIG Mentorship](<../assets/ certificates/cert_fig_mentorship.jpeg>)
+-   ![FIG Mentorship](<assets/ certificates/cert_fig_mentorship.jpeg>)
     
     **FIG Mentorship Programme**
     
@@ -165,7 +165,7 @@ A combination of academic qualifications, professional certifications, and recog
     
     *[Please confirm: was this mentee or mentor? Which year? Which network?]*
 
--   ![AWiSC Volunteer](<../assets/ certificates/cert_awisc_volunteer.png>)
+-   ![AWiSC Volunteer](<assets/ certificates/cert_awisc_volunteer.png>)
     
     **African Women in Space Conference (AWiSC) 2025 Volunteer**
     
