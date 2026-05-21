@@ -1,13 +1,13 @@
 ---
-title: Nairobi Flood Hotspots
-description: Interactive R Leaflet map identifying flood-prone zones across Nairobi and visualising emergency resources
+title: Nairobi Flood Hotspots Map
+description: Interactive R/Leaflet map identifying flood-prone neighbourhoods across Nairobi County for public awareness and disaster preparedness
 ---
 
-# Nairobi Flood Hotspots
+# Nairobi Flood Hotspots Map
 
-*April 2024 to March 2026 events | R, Leaflet | Public awareness mapping*
+*April 2024 to March 2026 events | R + Leaflet | Public Awareness Cartography*
 
-**Tags:** `R` `Leaflet.js` `Cartography` `Disaster Risk Mapping` `Web Mapping` `Urban Resilience` `Public Awareness` `Open Data`
+**Tags:** `R` `Leaflet.js` `Cartography` `Web Mapping` `Disaster Risk` `Urban Resilience` `Public Awareness` `Open Data` `GADM`
 
 ![Nairobi Flood Hotspots](../assets/images/nairobi_flood.jpeg)
 
@@ -21,21 +21,21 @@ While disaster management agencies hold detailed records, residents and decision
 
 Build a public-facing interactive map that:
 
-* Identifies and ranks 20 flood-prone zones across Nairobi by severity
+* Identifies and ranks 20 flood-prone zones across Nairobi by severity (1 to 5)
 * Documents the root cause of flooding in each zone (river basin, drainage failure, settlement on riparian land)
-* Surfaces emergency resources including hospitals, the Red Cross, and ambulance services
+* Surfaces emergency resources including hospitals, the Kenya Red Cross, and ambulance services with toll-free contact numbers
 * Raises awareness and supports disaster preparedness conversations at community level
 
 ## Methodology
 
-The map integrates four data layers in a Leaflet web map:
+The map integrates four layers in a Leaflet.js web map built with R:
 
-1. **20 flood hotspot points** with severity scores (1 to 5), households affected estimates, primary cause descriptions, and associated river basin
-2. **Five major river corridors** (Nairobi, Ngong, Mathare, Gatharaini, Ruiru) marking the principal flooding paths
-3. **Seven emergency resource locations** (Kenya Red Cross HQ, Nairobi County Disaster Management Office, four hospitals, St John Ambulance) with toll-free contact numbers
-4. **Administrative boundaries** from GADM at sub-county level
+1. **20 flood hotspot points** with severity scores, households affected estimates, primary cause descriptions, and associated river basin
+2. **Five major river corridors**: Nairobi River, Ngong River, Mathare River, Gatharaini River, Ruiru River
+3. **Seven emergency resource locations**: Kenya Red Cross HQ (South C), Nairobi County Disaster Management Office, Kenyatta National Hospital, Mama Lucy Kibaki Hospital, Mbagathi County Hospital, Pumwani Maternity Hospital, St. John Ambulance
+4. **Administrative boundaries**: Nairobi County and sub-county polygons from GADM via the R `geodata` package
 
-Severity is colour-coded yellow to dark red, with click-to-reveal pop-ups for each location. The map is fully interactive with zoom, pan, layer toggles, and a legend explaining symbology.
+Severity is colour-coded from yellow (low) to dark red (extreme), with click-to-reveal pop-ups for each location. The map provides zoom, pan, layer toggles, and a legend explaining symbology.
 
 ## Featured Hotspots
 
@@ -45,7 +45,9 @@ Severity is colour-coded yellow to dark red, with click-to-reveal pop-ups for ea
 | 4 (High) | Kawangware, Huruma, Eastleigh, South C, Industrial Area, Uthiru, Dandora, Kayole/Soweto, Lucky Summer |
 | 3 (Moderate) | Githurai, Kasarani, Kiamaiko, Ruai, Syokimau |
 
-The principal flooding drivers are the Nairobi River, Ngong River, and Mathare River corridors, compounded by encroachment on riparian land, blocked drainage, and dense informal housing.
+## Insight
+
+The map confirms that Nairobi's flood burden falls disproportionately on informal settlements along the Nairobi, Ngong, and Mathare river corridors. Six of the seven extreme-severity zones are informal settlements with limited drainage infrastructure. This pattern indicates that flood resilience in Nairobi cannot be separated from informal settlement upgrading and riparian land protection.
 
 ## Data Sources and Attribution
 
@@ -53,31 +55,38 @@ The principal flooding drivers are the Nairobi River, Ngong River, and Mathare R
 |---|---|
 | UN OCHA Kenya | Affected-population estimates |
 | Kenya Red Cross Society | Emergency contacts and event documentation |
-| ReliefWeb | Situation reports |
+| ReliefWeb | Situation reports for April 2024 floods |
 | ARIN (African Research and Impact Network) | Research briefs on Nairobi flooding |
 | Daily Nation, CNN, Citizen TV | Event reporting |
-| GADM (Global Administrative Areas) | Nairobi sub-county boundaries |
+| GADM (Global Administrative Areas) | Nairobi County and sub-county boundaries |
 
 ## Tech Stack
 
-* **R** with `leaflet`, `leaflet.extras`, `dplyr`, `htmltools`, `htmlwidgets`, `sf`
-* **GADM** via the `geodata` package for boundary data
-* **htmlwidgets** for export as a standalone HTML page
-* **RPubs** or **GitHub Pages** for deployment
+* **R** with `leaflet`, `leaflet.extras`, `dplyr`, `htmltools`, `htmlwidgets`, `sf`, `geodata`
+* **GADM** boundary data fetched in-script (no manual download needed)
+* **htmlwidgets** for export as a standalone HTML page (`index.html`)
+* **GitHub Pages** for free static site deployment
 
 ## Outcomes and Impact
 
-The map provides:
+The map delivers:
 
 * A community-accessible view of where flooding has historically caused most harm in Nairobi
 * A starting point for residents to identify nearby emergency resources
-* A planning aid for urban resilience interventions targeting drainage, riparian land encroachment, and informal settlement upgrading
-* A reproducible R workflow that can be adapted to other Kenyan cities or extended with new flood events
+* A planning aid for urban resilience interventions on drainage, riparian land encroachment, and informal settlement upgrading
+* A reproducible R workflow that can be adapted to other Kenyan cities or extended with new events
 
-## Code and Live Map
+## Code and Live Outputs
 
-* **Live interactive map:** [View on RPubs](#)
-* **GitHub repository:** [View source code](#)
+[:fontawesome-brands-github: View Code on GitHub](https://github.com/Wanjiru-1/nairobi-flood-map){ .md-button }
+[:material-launch: Open Live Map](https://wanjiru-1.github.io/nairobi-flood-map/){ .md-button .md-button--primary }
+
+**Direct links:**
+
+* **Live Map:** https://wanjiru-1.github.io/nairobi-flood-map/
+* **GitHub Repository:** https://github.com/Wanjiru-1/nairobi-flood-map
+* **Main Script:** `01_nairobi_floods_map.R`
+* **Project File:** `Nairobi Flood Map.Rproj`
 
 ## Reflections
 
@@ -85,4 +94,4 @@ This project deepened my understanding of how public-facing geospatial communica
 
 ---
 
-[See more projects](../projects/) | [Back to home](../)
+[← Back to all projects](../) | [Home](../../)
