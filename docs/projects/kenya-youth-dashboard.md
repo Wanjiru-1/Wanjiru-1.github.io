@@ -102,8 +102,13 @@ The dashboard delivers:
 
 ## Code and Live Outputs
 
-* **Live Dashboard:** [https://wanjiru-1.github.io/-kenya-youth-dashboard/](https://wanjiru-1.github.io/-kenya-youth-dashboard/)
-* **GitHub Repository:** [github.com/Wanjiru-1/-kenya-youth-dashboard](https://github.com/Wanjiru-1/-kenya-youth-dashboard)
+[:fontawesome-brands-github: View Code on GitHub](https://github.com/Wanjiru-1/kenya-youth-dashboard){ .md-button }
+[:material-launch: Open Live Dashboard](https://wanjiru-1.github.io/kenya-youth-dashboard/){ .md-button .md-button--primary }
+
+**Direct links:**
+
+* **Live Dashboard:** https://wanjiru-1.github.io/kenya-youth-dashboard/
+* **GitHub Repository:** https://github.com/Wanjiru-1/kenya-youth-dashboard
 * **Documentation:** README, DEPLOYMENT, and QUICK_START guides included in the repository
 * **License:** MIT
 
