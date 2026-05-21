@@ -161,9 +161,9 @@ A combination of academic qualifications, professional certifications, and recog
     
     **FIG Mentorship Programme**
     
-    International Federation of Surveyors
+    International Federation of Surveyors | 2025
     
-    *[Please confirm: was this mentee or mentor? Which year? Which network?]*
+    *Participated as a Mentee in the 2025 global cohort, engaging with experienced surveying professionals to advance career development, industry knowledge, and leadership in the geospatial sector.*
 
 -   ![AWiSC Volunteer](<assets/ certificates/cert_awisc_volunteer.png>)
     
