@@ -35,22 +35,15 @@ A combination of academic qualifications, professional certifications, and recog
 ### ALX Africa
 
 <div class="grid cards" markdown>
-- ![ALX Data Engineering](https://wanjiru-1.github.io/assets/%20certificates/cert_alx_data_engineering.png)
-
+-   ![ALX Data Engineering](<assets/ certificates/cert_alx_data_engineering.png>)
+    
     **Data Engineering**
-
+    
     *13-month program, completed 14 August 2026*
-
-    Comprehensive data engineering track covering pipeline design, ETL/ELT workflows, database systems, and cloud-based data infrastructure, alongside professional development skills for the digital economy.
-
-    **Core Skills:** Building and orchestrating data pipelines, database and warehouse design, and workflow automation using industry-standard tools.
-
-    **Application:** Engineered end-to-end pipelines to ingest, clean, and structure large-scale datasets ready for downstream analysis and modeling.
-
-    **Impact:** Strengthens my ability to build reliable, production-ready data infrastructure, the layer that turns raw geospatial and climate data into decision-ready insight for the models and dashboards I build.
-
+    
+    Pipeline design, ETL/ELT workflows, database systems, and cloud-based data infrastructure, the engineering layer that turns raw datasets into decision-ready insight.
+    
     [Verify certificate](https://savanna.alxafrica.com/certificates/CJBp652zcZ)
-
 -   ![ALX Data Science](<assets/ certificates/cert_alx_data_science.png>)
     
     **Data Science**
