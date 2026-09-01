@@ -35,6 +35,7 @@ A combination of academic qualifications, professional certifications, and recog
 ### ALX Africa
 
 <div class="grid cards" markdown>
+
 -   ![ALX Data Engineering](<assets/ certificates/cert_alx_data_engineering.png>)
     
     **Data Engineering**
@@ -44,6 +45,7 @@ A combination of academic qualifications, professional certifications, and recog
     Pipeline design, ETL/ELT workflows, database systems, and cloud-based data infrastructure, the engineering layer that turns raw datasets into decision-ready insight.
     
     [Verify certificate](https://savanna.alxafrica.com/certificates/CJBp652zcZ)
+
 -   ![ALX Data Science](<assets/ certificates/cert_alx_data_science.png>)
     
     **Data Science**
