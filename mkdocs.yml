@@ -67,6 +67,7 @@ nav:
   - Home: index.md
   - Projects:
     - Overview: projects/index.md
+    - NAKURU NDVI ANALYSIS (DROUGHT VS FLOOD YEAR): projects/nakuru-ndvi.md
     - Elgeyo Marakwet Landslide Dashboard: projects/elgeyo-landslide.md
     - Nairobi Flood Hotspots: projects/nairobi-flood-hotspots.md
     - Kenya Youth Opportunity Dashboard: projects/kenya-youth-dashboard.md
