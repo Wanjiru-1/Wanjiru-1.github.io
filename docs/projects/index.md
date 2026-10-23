@@ -11,6 +11,21 @@ Real-world geospatial and data analytics work addressing climate risk, disaster 
 
 <div class="grid cards" markdown>
 
+-   [![Nakuru vegetation change map](../assets/images/nakuru-ndvi-change.jpeg)](nakuru-ndvi.md)
+
+    **NAKURU NDVI ANALYSIS (DROUGHT VS FLOOD YEAR)**
+
+    *Google Earth Engine + QGIS | Final-year research, July 2025*
+
+    Sentinel-2 NDVI analysis comparing two April–June seasons, with a reported gain of 92,496.4 hectares above the vegetation threshold. Explore the live app and read the complete research.
+
+    `GEE` `JavaScript` `Sentinel-2` `NDVI` `CHIRPS` `QGIS`
+
+    [Explore project →](nakuru-ndvi.md) · [Open live app ↗](https://elegant-shelter-461411-v2.projects.earthengine.app/view/nakuru-ndvi-analysis){ target="_blank" rel="noopener" }
+
+    [Read the full research (PDF)](../assets/research/nakuru-ndvi-research.pdf)
+
+
 -   ![Elgeyo Marakwet Landslide Dashboard](../assets/images/elgeyo_landslide.jpeg)
 
     **Elgeyo Marakwet Landslide Dashboard**
