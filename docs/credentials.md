@@ -167,6 +167,14 @@ A combination of academic qualifications, professional certifications, and recog
 
 <div class="grid cards" markdown>
 
+-   ![Women in Space Kenya and African Women in GIS Mentorship Certificate](<assets/ certificates/Jecinta WISK Mentorship.png>)
+    
+    **Women in Space Kenya × African Women in GIS — 3-Track Mentorship Programme**
+    
+    Women in Space Kenya and African Women in GIS | Awarded 26 June 2026
+    
+    *Completed a collaborative mentorship programme delivered by Women in Space Kenya and African Women in GIS. Mentored by Ecospace Services, I strengthened my practical geospatial skills by building this professional portfolio and completing the Spatial Thoughts Water Resources Management project.*
+
 -   ![FIG Mentorship](<assets/ certificates/cert_fig_mentorship.jpeg>)
     
     **FIG Mentorship Programme**
