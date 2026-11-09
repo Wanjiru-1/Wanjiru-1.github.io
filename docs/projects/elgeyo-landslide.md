@@ -5,25 +5,25 @@ description: Geospatial dashboard mapping landslide risk in Elgeyo Marakwet Coun
 
 # Elgeyo Marakwet Landslide Dashboard
 
-*November 2025 | Google Earth Engine + JavaScript | Disaster Risk Mapping*
+*November 2025 | Google Earth Engine + JavaScript + machine learning | Work in progress*
 
-**Tags:** `Google Earth Engine` `JavaScript` `Remote Sensing` `Sentinel-2` `Sentinel-1 SAR` `CHIRPS` `SRTM` `Disaster Risk` `Web GIS` `Kenya`
+**Tags:** `Google Earth Engine` `JavaScript` `Machine Learning` `Remote Sensing` `Sentinel-2` `Sentinel-1 SAR` `CHIRPS` `SRTM` `Disaster Risk` `Work in Progress` `Kenya`
 
 ![Elgeyo Marakwet Landslide Dashboard](../assets/images/elgeyo_landslide.jpeg)
 
 ## The Problem
 
-On 31 October to 3 November 2025, heavy overnight rainfall saturated the slopes of the Kerio Escarpment in Elgeyo Marakwet County, Kenya, triggering shallow landslides that channelised into multiple debris flows. The Chesongoch, Murkutwo, and Kipkenda settlements were devastated, with at least 26 deaths confirmed, 25 people reported missing, and over 1,000 homes destroyed.
+This project examines landslide susceptibility in Elgeyo Marakwet County and the November 2025 event. Impact figures shown in earlier drafts have not yet been verified against an authoritative incident record, so casualty, missing-person, and damage counts remain unconfirmed.
 
 Elgeyo Marakwet has experienced repeated landslide events since 2010 (Kaben, Chesongoch 2012, Muino-Nyarkulian-Parua 2019, Liter-Chesegon 2020). Despite this recurring pattern, county disaster officers have lacked a quick-access tool to identify which slopes are most vulnerable before the next rainfall event.
 
 ## The Objective
 
-Build an interactive Google Earth Engine dashboard that classifies landslide susceptibility across the county, displays before-and-after satellite evidence of the November 2025 event, and serves as a planning tool for disaster officers, land use planners, and at-risk communities.
+Develop a Google Earth Engine dashboard to explore landslide susceptibility across the county and inspect satellite evidence related to the November 2025 event. The dashboard is still being debugged and is not yet presented as a validated operational planning tool.
 
 ## Methodology
 
-The dashboard combines six environmental factors into a weighted susceptibility index:
+The analysis combines six environmental factors into a weighted susceptibility index. I also used machine-learning functionality in Google Earth Engine as part of the project. I am still resolving errors in the dashboard and using AI assistance to investigate and debug them. The exact model configuration and validation results will be documented after I confirm them. The current weighted-index formulation is:
 
 ```
 Risk = 0.35 × slope
@@ -94,7 +94,7 @@ The work supports disaster management officers, NGOs working on climate resilien
 
 ## Reflections
 
-This project taught me how to combine multiple Earth observation datasets into a single decision-support tool, and how to handle both optical and radar inputs in the same analysis. Future work would extend the susceptibility model with machine learning calibration against historical landslide inventories, and add population exposure layers from WorldPop for risk-prioritised intervention planning.
+This project taught me how to combine multiple Earth observation datasets into a single decision-support tool, and how to handle both optical and radar inputs in the same analysis. Next steps include resolving the current dashboard errors, documenting the machine-learning method used in GEE, validating outputs against suitable historical landslide records, and verifying event impact figures against an authoritative incident record.
 
 ---
 
