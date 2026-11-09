@@ -34,7 +34,7 @@ Real-world geospatial and data analytics work addressing climate risk, disaster 
 
     Exploratory county-scale susceptibility analysis using GEE machine-learning tools and satellite data. Dashboard errors are still being debugged with AI assistance. November 2025 impact figures await authoritative confirmation.
 
-    `GEE` `R` `Sentinel-1` `Sentinel-2` `CHIRPS` `SRTM`
+    `GEE` `JavaScript` `Machine Learning` `Sentinel-1` `Sentinel-2` `CHIRPS` `SRTM`
 
     [Read full case study →](elgeyo-landslide.md)
 
