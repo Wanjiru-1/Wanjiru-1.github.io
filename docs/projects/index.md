@@ -30,9 +30,9 @@ Real-world geospatial and data analytics work addressing climate risk, disaster 
 
     **Elgeyo Marakwet Landslide Dashboard**
 
-    *Google Earth Engine + R | November 2025*
+    *Google Earth Engine + JavaScript + ML | November 2025 · Work in progress*
 
-    Six-factor weighted susceptibility model classifying landslide risk across Elgeyo Marakwet County, with before-and-after satellite imagery of the November 2025 Chesongoch event.
+    Exploratory county-scale susceptibility analysis using GEE machine-learning tools and satellite data. Dashboard errors are still being debugged with AI assistance. November 2025 impact figures await authoritative confirmation.
 
     `GEE` `R` `Sentinel-1` `Sentinel-2` `CHIRPS` `SRTM`
 
