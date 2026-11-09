@@ -5,7 +5,7 @@ description: Geospatial and data science projects by Jecinta Wanjiru Kinyanjui
 
 # Projects
 
-Real-world geospatial and data analytics work addressing climate risk, disaster preparedness, and youth opportunity across Kenya. Each project leads with the problem, the methodology, the data sources, and the outcomes.
+Geospatial, AI, and data analytics projects addressing climate risk, disaster preparedness, public health evidence, agriculture, and youth opportunity across Kenya. Each project presents its question, methods, data sources, results, and limitations.
 
 ## Featured Projects
 
