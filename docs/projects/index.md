@@ -62,11 +62,7 @@ Real-world geospatial and data analytics work addressing climate risk, disaster 
 
     [Read full case study →](kenya-youth-dashboard.md)
 
-</div>
-
--   ![Kenya Health Census Evidence Assistant](../assets/images/kenya_youth_dashboard.png)
-
-    **AI Evidence Evaluation for Kenya Health Census**
+-   **AI Evidence Evaluation for Kenya Health Census**
 
     *Python + TF-IDF + Sentence Transformers + local Qwen | 2026*
 
@@ -76,9 +72,7 @@ Real-world geospatial and data analytics work addressing climate risk, disaster 
 
     [Read the case study →](kenya-health-census-assistant.md) · [Open evaluation dashboard ↗](../assets/dashboards/kenya-health-census-evaluation.html){ target="_blank" rel="noopener" }
 
--   ![Kenya Maize Price Forecasting](../assets/images/kenya_youth_dashboard.png)
-
-    **Kenya Maize Price Forecasting**
+-   **Kenya Maize Price Forecasting**
 
     *Python + scikit-learn + local Qwen | 2026*
 
@@ -87,6 +81,8 @@ Real-world geospatial and data analytics work addressing climate risk, disaster 
     `Python` `Random Forest` `Forecast Evaluation` `Tableau`
 
     [Read the case study →](kenya-maize-forecasting.md) · [Open forecast dashboard ↗](../assets/dashboards/kenya-maize-dashboard.html){ target="_blank" rel="noopener" }
+
+</div>
 
 ## Additional Work
 
