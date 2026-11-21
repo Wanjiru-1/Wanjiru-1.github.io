@@ -54,3 +54,26 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const links = Array.from(document.querySelectorAll('.project-category'));
+  if (!links.length || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const labels = links.map(link => link.textContent);
+  links.forEach((link, index) => {
+    link.setAttribute('aria-label', labels[index]);
+    link.style.minHeight = link.offsetHeight + 'px';
+    link.textContent = '\u00a0';
+  });
+  let index = 0;
+  let length = 0;
+  function typeNext() {
+    length++;
+    links[index].textContent = labels[index].slice(0, length);
+    if (length === labels[index].length) {
+      index++;
+      length = 0;
+    }
+    if (index < links.length) window.setTimeout(typeNext, 22);
+  }
+  typeNext();
+});

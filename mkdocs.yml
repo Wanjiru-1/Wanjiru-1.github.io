@@ -68,15 +68,20 @@ nav:
   - Projects:
     - Overview: projects/index.md
     - Geospatial & Earth Observation:
+      - Overview: projects/geospatial-earth-observation.md
       - NAKURU NDVI ANALYSIS (DROUGHT VS FLOOD YEAR): projects/nakuru-ndvi.md
       - Elgeyo Marakwet Landslide Dashboard: projects/elgeyo-landslide.md
       - Nairobi Flood Hotspots: projects/nairobi-flood-hotspots.md
     - Data Analytics & Business Intelligence:
+      - Overview: projects/data-analytics-business-intelligence.md
       - Labour force participation gaps: projects/labour-participation.md
       - Kenya Youth Opportunity Dashboard: projects/kenya-youth-dashboard.md
     - Data Science, AI & Machine Learning:
+      - Overview: projects/data-science-ai-machine-learning.md
       - Kenya Maize Price Forecasting: projects/kenya-maize-forecasting.md
       - AI Evidence Evaluation for Kenya Health Census: projects/kenya-health-census-assistant.md
+    - Data Engineering & Automation: projects/data-engineering-automation.md
+    - Personal Projects: projects/personal-projects.md
   - Experience: experience.md
   - Skills: skills.md
   - Volunteer: volunteer.md

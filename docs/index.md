@@ -10,7 +10,7 @@
 
 I use satellite imagery, statistical models and business intelligence tools to investigate questions about the environment, markets and work. My background in Surveying Technology informs how I check the data behind each map and report.
 
-Browse [Data Engineering & Automation](projects/index.md#data-engineering-automation) and [Personal Projects](projects/index.md#personal-projects), or start with a case study below.
+Browse [Data Engineering & Automation](projects/data-engineering-automation.md) and [Personal Projects](projects/personal-projects.md), or start with a case study below.
 
 ## Selected work
 
