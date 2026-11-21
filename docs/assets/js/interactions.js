@@ -55,25 +55,50 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-  const links = Array.from(document.querySelectorAll('.project-category'));
-  if (!links.length || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  const labels = links.map(link => link.textContent);
-  links.forEach((link, index) => {
-    link.setAttribute('aria-label', labels[index]);
-    link.style.minHeight = link.offsetHeight + 'px';
-    link.textContent = '\u00a0';
-  });
-  let index = 0;
-  let length = 0;
-  function typeNext() {
-    length++;
-    links[index].textContent = labels[index].slice(0, length);
-    if (length === labels[index].length) {
-      index++;
-      length = 0;
+function animateProjectDirectory() {
+  const directory = document.querySelector('.project-directory');
+  if (!directory || directory.dataset.typing || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  directory.dataset.typing = 'ready';
+  const links = Array.from(directory.querySelectorAll('.project-category'));
+  const labels = links.map(link => link.textContent.trim());
+  links.forEach((link, i) => link.setAttribute('aria-label', labels[i]));
+
+  function start() {
+    let index = 0;
+    let length = 0;
+    links.forEach(link => { link.textContent = '\u00a0'; });
+    function type() {
+      const link = links[index];
+      link.classList.add('typing');
+      link.textContent = labels[index].slice(0, ++length);
+      if (length < labels[index].length) {
+        window.setTimeout(type, 60);
+      } else {
+        link.classList.remove('typing');
+        index++;
+        length = 0;
+        if (index < links.length) window.setTimeout(type, 250);
+      }
     }
-    if (index < links.length) window.setTimeout(typeNext, 22);
+    window.setTimeout(type, 350);
   }
-  typeNext();
-});
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(entries => {
+      if (entries.some(entry => entry.isIntersecting)) {
+        observer.disconnect();
+        start();
+      }
+    });
+    observer.observe(links[0]);
+  } else {
+    start();
+  }
+}
+
+if (typeof document$ !== 'undefined') {
+  document$.subscribe(animateProjectDirectory);
+} else if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', animateProjectDirectory);
+} else {
+  animateProjectDirectory();
+}

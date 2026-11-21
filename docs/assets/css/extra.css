@@ -396,3 +396,12 @@
 .project-directory { display: grid; gap: .65rem; }
 .md-typeset .project-category { display: block; padding: .9rem 1rem; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .4rem; font-weight: 600; }
 .project-category:hover, .project-category:focus-visible { background: var(--md-default-fg-color--lightest); }
+
+.project-category.typing::after {
+  content: "";
+  display: inline-block;
+  height: 1em;
+  margin-inline-start: .1em;
+  border-inline-start: 2px solid var(--md-primary-fg-color);
+  vertical-align: -.1em;
+}
