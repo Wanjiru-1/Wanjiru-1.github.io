@@ -10,6 +10,8 @@
 
 I use satellite imagery, statistical models and business intelligence tools to investigate questions about the environment, markets and work. My background in Surveying Technology informs how I check the data behind each map and report.
 
+Browse [Data Engineering & Automation](projects/index.md#data-engineering-automation) and [Personal Projects](projects/index.md#personal-projects), or start with a case study below.
+
 ## Selected work
 
 - [Labour force participation gaps](projects/labour-participation.md) · Compare women’s and men’s participation rates across eight African countries in Power BI.

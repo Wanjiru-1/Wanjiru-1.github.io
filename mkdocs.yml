@@ -74,7 +74,7 @@ nav:
     - Data Analytics & Business Intelligence:
       - Labour force participation gaps: projects/labour-participation.md
       - Kenya Youth Opportunity Dashboard: projects/kenya-youth-dashboard.md
-    - Data Science & Forecasting:
+    - Data Science, AI & Machine Learning:
       - Kenya Maize Price Forecasting: projects/kenya-maize-forecasting.md
       - AI Evidence Evaluation for Kenya Health Census: projects/kenya-health-census-assistant.md
   - Experience: experience.md
@@ -82,4 +82,3 @@ nav:
   - Volunteer: volunteer.md
   - Writing: writing.md
   - Credentials: credentials.md
-  
