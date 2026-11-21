@@ -5,9 +5,9 @@ description: Geospatial and data science projects by Jecinta Wanjiru Kinyanjui
 
 # Projects
 
-Geospatial, AI, and data analytics projects addressing climate risk, disaster preparedness, public health evidence, agriculture, and youth opportunity across Kenya. Each project presents its question, methods, data sources, results, and limitations.
+Geospatial, AI, and data analytics projects addressing climate risk, disaster preparedness, public health evidence, agriculture, and youth opportunity in Kenya and across selected African countries. Each project presents its question, methods, data sources, results, and limitations.
 
-## Featured Projects
+## Geospatial & Earth Observation
 
 <div class="grid cards" markdown>
 
@@ -50,17 +50,37 @@ Geospatial, AI, and data analytics projects addressing climate risk, disaster pr
 
     [Read full case study →](nairobi-flood-hotspots.md)
 
+</div>
+
+## Data Analytics & Business Intelligence
+
+<div class="grid cards" markdown>
+
+-   [![Ranked participation gaps for eight countries](../assets/images/participation-chart.png)](labour-participation.md)
+
+    **Labour force participation gaps across eight African countries**
+
+    Egypt and Morocco recorded gaps above 48 percentage points. Compare all eight countries in a Power BI report with an ArcGIS boundary map.
+
+    [Read the report →](labour-participation.md)
+
 -   ![Kenya Youth Opportunity Dashboard](../assets/images/kenya_youth_dashboard.png)
 
     **Kenya Youth Opportunity Dashboard**
 
     *HTML5 + Leaflet + Plotly | 2026*
 
-    Interactive choropleth dashboard analysing youth employment, education access, and digital connectivity across all 47 Kenyan counties.
+    Interactive choropleth dashboard using synthetic indicators to explore youth employment, education access, and digital connectivity across all 47 Kenyan counties.
 
     `JavaScript` `Leaflet.js` `Plotly.js` `Data Storytelling` `Choropleth`
 
     [Read full case study →](kenya-youth-dashboard.md)
+
+</div>
+
+## Data Science & Forecasting
+
+<div class="grid cards" markdown>
 
 -   **AI Evidence Evaluation for Kenya Health Census**
 

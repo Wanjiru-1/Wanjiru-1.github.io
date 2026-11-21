@@ -1,14 +1,20 @@
 # <span class="typewriter-hero">Mapping a more equitable Africa through data</span>
 
 <div class="role-tagline">
-  <span class="role-title">Geospatial Data Scientist</span>
+  <span class="role-title">Geospatial and Data Analyst</span>
   <span class="role-focus">Climate & Social Impact Analytics</span>
   <span class="role-location">Nairobi, Kenya</span>
 </div>
 
 ![Professional headshot of Jecinta Wanjiru Kinyanjui](assets/images/jecinta_headshot.jpeg){ .profile-image }
 
-I apply geospatial technology, machine learning, and data analytics to solve real-world problems across Kenya and East Africa, from predicting climate disasters like drought and flooding to mapping femicide hotspots that can drive policy intervention and save lives. My work spans landslide risk mapping in Elgeyo Marakwet, flood hotspot analysis in Nairobi, and national climate risk dashboards covering all 47 Kenyan counties. I combine a strong academic foundation in Surveying Technology with hands-on experience in remote sensing, GIS automation, and AI-augmented workflows.
+I use satellite imagery, statistical models and business intelligence tools to investigate questions about the environment, markets and work. My background in Surveying Technology informs how I check the data behind each map and report.
+
+## Selected work
+
+- [Labour force participation gaps](projects/labour-participation.md) · Compare women’s and men’s participation rates across eight African countries in Power BI.
+- [Nakuru vegetation change](projects/nakuru-ndvi.md) · Measure how much land crossed a vegetation threshold between two April–June seasons.
+- [Kenya maize price forecasting](projects/kenya-maize-forecasting.md) · Test whether a model can improve on using last month’s price.
 
 ![Jecinta conducting RTK fieldwork](assets/images/jecinta_survey_photo.jpeg){ .about-image }
 
