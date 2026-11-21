@@ -114,4 +114,10 @@ Geospatial, AI, and data analytics projects addressing climate risk, disaster pr
 
 ## Personal Projects
 
-This space is reserved for independent work outside data and GIS. The first project write-up is pending.
+### Skin in the Game
+
+*Accountability app · In development*
+
+I’m building an app for people who want to follow through on a goal with encouragement from someone they know. The interactive demo lets you explore check-ins from your own perspective or switch to Maya, a sample accountability partner. Demo changes stay on your device.
+
+[Try the Skin in the Game demo](https://getskininthegame.pages.dev/demo#today)
