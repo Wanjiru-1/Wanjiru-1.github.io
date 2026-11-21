@@ -2,8 +2,8 @@
 # PORTFOLIO CONFIGURATION — Jecinta Wanjiru
 # ============================================================
 
-site_name: Jecinta Wanjiru | Geospatial Portfolio
-site_description: Surveying technologist and GIS specialist based in Nairobi, Kenya
+site_name: Jecinta Wanjiru | Geospatial and Data Analytics Portfolio
+site_description: Geospatial and data analyst based in Nairobi, Kenya
 site_author: Jecinta Wanjiru
 site_url: https://wanjiru-1.github.io/
 
@@ -67,15 +67,18 @@ nav:
   - Home: index.md
   - Projects:
     - Overview: projects/index.md
-    - NAKURU NDVI ANALYSIS (DROUGHT VS FLOOD YEAR): projects/nakuru-ndvi.md
-    - Elgeyo Marakwet Landslide Dashboard: projects/elgeyo-landslide.md
-    - Nairobi Flood Hotspots: projects/nairobi-flood-hotspots.md
-    - Kenya Youth Opportunity Dashboard: projects/kenya-youth-dashboard.md
-    - Kenya Maize Price Forecasting: projects/kenya-maize-forecasting.md
-    - AI Evidence Evaluation for Kenya Health Census: projects/kenya-health-census-assistant.md
+    - Geospatial & Earth Observation:
+      - NAKURU NDVI ANALYSIS (DROUGHT VS FLOOD YEAR): projects/nakuru-ndvi.md
+      - Elgeyo Marakwet Landslide Dashboard: projects/elgeyo-landslide.md
+      - Nairobi Flood Hotspots: projects/nairobi-flood-hotspots.md
+    - Data Analytics & Business Intelligence:
+      - Labour force participation gaps: projects/labour-participation.md
+      - Kenya Youth Opportunity Dashboard: projects/kenya-youth-dashboard.md
+    - Data Science, AI & Machine Learning:
+      - Kenya Maize Price Forecasting: projects/kenya-maize-forecasting.md
+      - AI Evidence Evaluation for Kenya Health Census: projects/kenya-health-census-assistant.md
   - Experience: experience.md
   - Skills: skills.md
   - Volunteer: volunteer.md
   - Writing: writing.md
   - Credentials: credentials.md
-  

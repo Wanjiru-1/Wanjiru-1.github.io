@@ -5,9 +5,9 @@ description: Geospatial and data science projects by Jecinta Wanjiru Kinyanjui
 
 # Projects
 
-Geospatial, AI, and data analytics projects addressing climate risk, disaster preparedness, public health evidence, agriculture, and youth opportunity across Kenya. Each project presents its question, methods, data sources, results, and limitations.
+Geospatial, AI, and data analytics projects addressing climate risk, disaster preparedness, public health evidence, agriculture, and youth opportunity in Kenya and across selected African countries. Each project presents its question, methods, data sources, results, and limitations.
 
-## Featured Projects
+## Geospatial & Earth Observation
 
 <div class="grid cards" markdown>
 
@@ -50,17 +50,37 @@ Geospatial, AI, and data analytics projects addressing climate risk, disaster pr
 
     [Read full case study →](nairobi-flood-hotspots.md)
 
+</div>
+
+## Data Analytics & Business Intelligence
+
+<div class="grid cards" markdown>
+
+-   [![Ranked participation gaps for eight countries](../assets/images/participation-chart.png)](labour-participation.md)
+
+    **Labour force participation gaps across eight African countries**
+
+    Egypt and Morocco recorded gaps above 48 percentage points. Compare all eight countries in a Power BI report with an ArcGIS boundary map.
+
+    [Read the report →](labour-participation.md)
+
 -   ![Kenya Youth Opportunity Dashboard](../assets/images/kenya_youth_dashboard.png)
 
     **Kenya Youth Opportunity Dashboard**
 
     *HTML5 + Leaflet + Plotly | 2026*
 
-    Interactive choropleth dashboard analysing youth employment, education access, and digital connectivity across all 47 Kenyan counties.
+    Interactive choropleth dashboard using synthetic indicators to explore youth employment, education access, and digital connectivity across all 47 Kenyan counties.
 
     `JavaScript` `Leaflet.js` `Plotly.js` `Data Storytelling` `Choropleth`
 
     [Read full case study →](kenya-youth-dashboard.md)
+
+</div>
+
+## Data Science, AI & Machine Learning
+
+<div class="grid cards" markdown>
 
 -   **AI Evidence Evaluation for Kenya Health Census**
 
@@ -84,11 +104,20 @@ Geospatial, AI, and data analytics projects addressing climate risk, disaster pr
 
 </div>
 
-## Additional Work
+## Data Engineering & Automation
 
-From my professional attachments at DRSRS:
+**Membership registration workflow · Institution of Surveyors of Kenya.** Connected ArcGIS Survey123, Excel and the membership database using Make.com to digitise conference registration.
 
-* **Coffee Farm Geodatabase** (2025): end-to-end digitisation and validation of 300+ smallholder coffee farm parcels in ArcGIS Pro, improving data accuracy for farmer land management records
-* **Cartographic Automation Pipeline** (2025): Python and Google Earth Engine scripts automating repetitive map production tasks at DRSRS
+**Coffee farm records and cartographic automation · DRSRS.** Digitised and validated more than 300 smallholder coffee farm parcels in ArcGIS Pro and automated repetitive map production tasks using Python and Google Earth Engine.
 
-These attachment projects are summarised on the [Experience page](../experience.md).
+[Read about these workplace projects](../experience.md)
+
+## Personal Projects
+
+### Skin in the Game
+
+*Accountability app · In development*
+
+I’m building an app for people who want to follow through on a goal with encouragement from someone they know. The interactive demo lets you explore check-ins from your own perspective or switch to Maya, a sample accountability partner. Demo changes stay on your device.
+
+[Try the Skin in the Game demo](https://getskininthegame.pages.dev/demo#today)
