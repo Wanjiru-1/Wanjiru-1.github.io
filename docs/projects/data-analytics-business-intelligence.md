@@ -2,6 +2,14 @@
 
 <div class="grid cards" markdown>
 
+-   [![Map of urban–rural drinking-water access gaps](../assets/images/drinking-water-map.jpg)](drinking-water.md)
+
+    **Was rural drinking-water access catching up with urban access?**
+
+    Across 49 places in Sub-Saharan Africa, rural coverage gained 0.334 percentage points per year on urban coverage. See the SQL checks, regional report and narrated walkthrough.
+
+    [Explore the project →](drinking-water.md)
+
 -   [![Ranked participation gaps for eight countries](../assets/images/participation-chart.png)](labour-participation.md)
 
     **Labour force participation gaps across eight African countries**
